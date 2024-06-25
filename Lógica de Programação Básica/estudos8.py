@@ -1,7 +1,7 @@
 nome = 'Thiago' # String
 sobrenome = 'Honma' # String
 idade = 21 # int
-ano_nascimento = 2024 - idade # int
+ano_nascimento = 2024 - idade # int 
 maior_de_idade = idade >= 18 #Boolean
 altura_metros = 1.85 # float
 
