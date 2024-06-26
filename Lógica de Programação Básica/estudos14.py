@@ -13,4 +13,6 @@ frase3 = 'a={nome1} b={nome2} c={nome3} d={nome4:.3f}' # Por parâmetro nomeado
 
 formato = frase3.format(nome1 = a, nome2 = b, nome3 = c, nome4 = d)
 
+print(frase3.format(nome1 = a, nome2 = b, nome3 = c, nome4 = d))
+
 print(formato)
