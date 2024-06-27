@@ -16,6 +16,10 @@ usado para representar um não valor
 
 '''
 
+# Avaliação de curto circuito
+print(True and False and True)
+print(True and 0 and True)
+
 # Exemplo de uso do operador and (e)
 entrada = input('Digite a opção desejada [E]ntrar/[S]air: ')
 senha = input('Digite a senha:')
