@@ -1,34 +1,33 @@
 import random
 
-lista_palavras = ["guitarra", "carro", "notebook", "casa", "oceano", "casamento", "palavra", "livro", "lampada"]
+lista_palavras = ["Cachorro", "Carro", "Tartaruga", "Notebook", "Lapis", "Ventilador", "Internet", "Celular"]
 
-palavra_aleatoria = random.choice(lista_palavras).upper()
-palavra_misteriosa = "_" * len(palavra_aleatoria)
-palavra_adivinhar = ""
-vidas = 6
+palavra = random.choice(lista_palavras).upper()
+palavra_escondida = "_" * len(palavra)
 letras_corretas = []
+vidas = 6
 
-print(palavra_aleatoria)
-print(palavra_misteriosa)
+print(palavra)
+print(palavra_escondida)
 
-while vidas > 0:
-    letra_adivinhar = input("\nDigite a letra que possa conter na palavra: ").upper()
-    if letra_adivinhar in palavra_aleatoria:
-        for letra in palavra_aleatoria:
-            if letra_adivinhar == letra:
-                letra = letra_adivinhar
-                letras_corretas.append(letra)
-            else:
-                letra = "_"
-            palavra_adivinhar += letra
-        print(f"Você tem {vidas} vidas faltando.")
-    else:
+while vidas != 0:
+    letra_usuario = input("Digite uma letra que possa conter na palavra misteriosa: ").upper()
+    if letra_usuario not in palavra:
         vidas -= 1
-        print("Você errou a letra!")
-        print(f"Você tem mais {vidas} vidas.")
-    if "_" not in palavra_adivinhar:
-        print("Você ganhou o jogo! Parabéns!")
-    print(palavra_adivinhar)
-    palavra_adivinhar = ""
+        print(f"Você errou! Agora restam mais {vidas} vidas.")
 
-print("Você perdeu, tente novamente.")
+    palavra_formando = ""
+
+    for letra in palavra:
+        if letra == letra_usuario:
+            letra = letra_usuario
+            letras_corretas.append(letra_usuario)
+            palavra_formando += letra
+        elif letra in letras_corretas:
+            palavra_formando += letra
+        else:
+            letra = "_"
+            palavra_formando += letra
+    print(palavra_formando)
+    
+print("Voçê perdeu! Tente novamente.")
