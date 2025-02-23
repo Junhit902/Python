@@ -6,11 +6,13 @@ palavra = random.choice(lista_palavras).upper()
 palavra_escondida = "_" * len(palavra)
 letras_corretas = []
 vidas = 6
+game = True
 
 print(palavra)
 print(palavra_escondida)
 
-while vidas != 0:
+while game:
+    
     letra_usuario = input("Digite uma letra que possa conter na palavra misteriosa: ").upper()
     if letra_usuario not in palavra:
         vidas -= 1
@@ -29,5 +31,10 @@ while vidas != 0:
             letra = "_"
             palavra_formando += letra
     print(palavra_formando)
-    
-print("Voçê perdeu! Tente novamente.")
+
+    if "_" not in palavra_formando:
+        game = False
+        print("Você venceu o jogo. Parabéns!")
+    if vidas == 0:
+        game = False
+        print("Voçê perdeu! Tente novamente.")
