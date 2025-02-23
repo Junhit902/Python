@@ -1,5 +1,6 @@
 import random
 import os
+import palavras
 
 HANGMAN = (
     """
@@ -100,10 +101,7 @@ HANGMAN = (
 """)
 
 
-
-lista_palavras = ["Cachorro", "Carro", "Tartaruga", "Notebook", "Lapis", "Ventilador", "Internet", "Celular"]
-
-palavra = random.choice(lista_palavras).upper()
+palavra = random.choice(palavras.lista_palavras).upper()
 palavra_escondida = "_" * len(palavra)
 letras_corretas = []
 letras_repetidas = []
@@ -118,6 +116,13 @@ while game:
     print(f"{palavra_escondida}\n")
     print(f"Vidas restantes: {vidas}\n")
     letra_usuario = input("Digite uma letra que possa conter na palavra misteriosa: ").upper()
+
+    while letra_usuario in letras_repetidas:
+        os.system('cls')
+        letra_usuario = input("Você já digitou essa letra! Digite uma letra que não tenha digitado: ")
+
+    letras_repetidas.append(letra_usuario)
+
     if letra_usuario not in palavra:
         vidas -= 1
         print(f"Você errou! Agora restam mais {vidas} vidas.")
