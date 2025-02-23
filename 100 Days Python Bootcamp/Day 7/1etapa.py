@@ -1,4 +1,5 @@
 import random
+import os
 
 lista_palavras = ["Cachorro", "Carro", "Tartaruga", "Notebook", "Lapis", "Ventilador", "Internet", "Celular"]
 
@@ -9,10 +10,11 @@ vidas = 6
 game = True
 
 print(palavra)
-print(palavra_escondida)
+
 
 while game:
     
+    print(palavra_escondida)
     letra_usuario = input("Digite uma letra que possa conter na palavra misteriosa: ").upper()
     if letra_usuario not in palavra:
         vidas -= 1
@@ -31,10 +33,11 @@ while game:
             letra = "_"
             palavra_formando += letra
     print(palavra_formando)
+    os.system('cls')
 
     if "_" not in palavra_formando:
         game = False
         print("Você venceu o jogo. Parabéns!")
     if vidas == 0:
         game = False
-        print("Voçê perdeu! Tente novamente.")
+        print("Você perdeu! Tente novamente.")
