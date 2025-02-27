@@ -8,9 +8,12 @@ def cipher(mensagem_original, numero_shift, direcao):
     if direcao == "decode":
             numero_shift *= -1
     for letra in mensagem_original:
-        letra_encryptado = letras_alfabeto.index(letra) + numero_shift
-        letra_encryptado %= len(letras_alfabeto)
-        mensagem_encryptado += letras_alfabeto[letra_encryptado]
+        if letra not in letras_alfabeto:
+            mensagem_encryptado += letra
+        else:
+            letra_encryptado = letras_alfabeto.index(letra) + numero_shift
+            letra_encryptado %= len(letras_alfabeto)
+            mensagem_encryptado += letras_alfabeto[letra_encryptado]
     print(f"A sua mensagem {direcao}d: {mensagem_encryptado}")
 
 continuar = True
