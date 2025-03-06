@@ -8,9 +8,14 @@ student_scores = {
 
 student_grades = student_scores
 
-# print(student_grades)
+print(student_grades)
 
 for name, grade in student_grades.items():
-    print(name, grade)
-    # if grades <= 70:
-    #     student_grades[grades] = "Fail"
+    if grade >= 91:
+        print(f"{name} você tirou {grade}: Outstanding")
+    elif grade >= 81:
+        print(f"{name} você tirou {grade}: Exceeds")
+    elif grade >= 71:
+        print(f"{name} você tirou {grade}: Acceptable")
+    else:
+        print(f"{name} você tirou {grade}: Fail")
