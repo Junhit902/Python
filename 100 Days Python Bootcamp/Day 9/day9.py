@@ -9,7 +9,7 @@ while yes_no:
 
     leilao[nome] = lance
 
-    continuar = input("Você quer continuar? Digite 'S'(Sim) ou 'N'(Não): ").upper()
+    continuar = input("Mais alguém para dar um lance? Digite 'S'(Sim) ou 'N'(Não): ").upper()
 
     if continuar == "S":
         yes_no = True
