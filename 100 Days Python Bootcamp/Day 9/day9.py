@@ -24,3 +24,7 @@ while yes_no:
                 nome_maior = nomes
                 lance_maior = lances
         print(f"O maior lance foi {nome_maior} com o valor de R${lance_maior:.2f}")
+    else:
+        yes_no = True
+        print("Digite corretamente!!!")
+        os.system("cls")
