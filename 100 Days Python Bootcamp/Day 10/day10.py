@@ -1,12 +1,17 @@
-def formatar_nome(f_name, l_name):
-    if f_name == "" or l_name == "":
-        return "Digite algo na entrada, por gentileza."
+def is_leap_year(year):
+    if year % 4 == 0:
+        print("Leap")
+        if year % 100 == 0:
+            print("Not Leap")
+            if year % 400 != 0:
+                print("Not Leap")
+                return False
+            else:
+                print("Leap")
+                return True
+    else:
+        print("Not Leap")
+        return False
 
-    first_name = f_name.title()
-    last_name = l_name.title()
-
-    return f"{first_name} {last_name}"
-
-
-output = formatar_nome(f_name=input("Digite o seu primeiro nome: "), l_name=input("Digite o seu sobrenome: "))
+output = is_leap_year(year=int(input("Digite um ano qualquer: ")))
 print(output)
