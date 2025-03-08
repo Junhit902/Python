@@ -23,7 +23,7 @@ while yes_no:
             if lances > lance_maior:
                 nome_maior = nomes
                 lance_maior = lances
-        print(f"O maior lance foi {nome_maior} com o valor de R${lance_maior:.2f}")
+        print(f"O maior lance foi de {nome_maior} com o valor de R${lance_maior:.2f}")
     else:
         yes_no = True
         print("Digite corretamente!!!")
