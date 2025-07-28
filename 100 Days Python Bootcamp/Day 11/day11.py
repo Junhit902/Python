@@ -43,6 +43,10 @@ if ponto_jogador < 21:
         elif ponto_jogador == ponto_comp:
             print("Empate!")
 elif ponto_jogador == 21:
+    print(ponto_comp)
+    print(ponto_jogador)
     print("Você ganhou!")
 else:
+    print(ponto_comp)
+    print(ponto_jogador)
     print("Você perdeu!")
