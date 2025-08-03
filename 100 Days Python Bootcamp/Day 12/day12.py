@@ -37,6 +37,7 @@ while continuar == 's':
     elif dificuldade== 'd':
         tentativas = 5
         comparar_numeros(tentativas)
+        
     continuar = input("\nVocê quer continuar jogando? 's'(Sim) ou 'n'(Não): ").lower()
     
     if continuar == 's':
