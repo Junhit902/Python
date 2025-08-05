@@ -5,7 +5,7 @@ import os
 
 perdeu = False
 nova_pontuação = 0
-pontuacao_total = nova_pontuação
+pontuacao_total = 0
 
 def comparacao(pais1, pais2):
     pop1 = dados_paises[pais1]['populacao']
@@ -15,20 +15,24 @@ def comparacao(pais1, pais2):
             return pais1
         else:
             return pais2
+    else:
+        print("Os países selecionados são iguais. Tente novamente.")
 
 def resultado(opcao, pais_correta, pontos, pais1, pais2, pontuacao_final):
     if opcao == "A" and dados_paises[pais1]['pais'] == dados_paises[pais_correta]['pais']:
+        os.system("cls")
         print(f"\nParabéns! Você acertou o país com a maior população: {dados_paises[pais_correta]['pais']}.")
         pontos += 1
         return pontos
     elif opcao == "B" and pais2 == pais_correta:
+        os.system("cls")
         print(f"\nParabéns! Você acertou o país com a maior população: {dados_paises[pais_correta]['pais']}.")
         pontos += 1
         return pontos
     else:
         os.system("cls")
         print(f"\nVocê errou! Continue treinando. Total de pontos: {pontuacao_final}")
-        return pontos
+        return None
     
 while perdeu is False:
     print(ascart.titulo)
@@ -45,8 +49,15 @@ while perdeu is False:
             break
         else:
             print("Digite a opção correta, escolha entre as opções disponíveis 'A' ou 'B'!")
-    pontuacao_total += resultado(escolha, correta, nova_pontuação, pais_a, pais_b, pontuacao_total)
-    print(f"Pontuação total: {pontuacao_total}")
+    acertos = resultado(escolha, correta, nova_pontuação, pais_a, pais_b, pontuacao_total)
+    if acertos is None:
+        perdeu = True
+    else:
+        pontuacao_total += acertos
+        print(f"Pontuação total: {pontuacao_total}")
+
+
+
 # Será escolhido dois países aleatoriamente para realizar a comparação
 # Se o país for maior em população, ele vira outra letra. Ex.: A -> B
 # O usuário tem que advinhar entre A ou B, digitando uma das opções
