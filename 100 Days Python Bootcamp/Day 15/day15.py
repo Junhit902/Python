@@ -118,7 +118,7 @@ while desligar is False: # Até a pessoa inserir o comando "off" esta máquina d
         print(f"\n{bebida_selecionada} está pronto! Se sirva com cuidado 🍵.")
 
         agua, leite, cafe, chocolate = calcular_estoque(bebida, agua, leite, cafe, chocolate)
-        dinheiro = dinheiro_total_maquina
+        dinheiro = dinheiro_total_maquina - troco
         mostrar_estoque(agua, leite, cafe, chocolate, dinheiro)
 
     elif comando == 'estoque':
