@@ -27,44 +27,51 @@ def bebidas_quente(bebida_escolhida):
         case _ if bebida_escolhida >= 7 or bebida_escolhida <= 0 or bebida_escolhida is str:
             return "Opção inválida"
 
-def mostrar_estoque():
+def mostrar_estoque(agua, leite, cafe, chocolate, dinheiro):
     print(f"\nÁgua: {agua}L" \
         f"\nLeite: {leite}L" \
         f"\nCafé: {cafe}g" \
         f"\nChocolate: {chocolate}g" \
         f"\nDinheiro: R${dinheiro}")
     
-def calcular_estoque(bebida_estoque):
+def calcular_estoque(bebida_estoque, agua_estoque, leite_estoque, cafe_estoque, chocolate_estoque):
     '''Calcula o estoque de cada bebida e retorna o valor de cada ingrediente que foi usado'''
     if bebida_estoque == 1:
-        agua -= 200
-        cafe -= 20
+        agua_estoque -= 200
+        cafe_estoque -= 20
+        return agua_estoque, leite_estoque, cafe_estoque, chocolate_estoque
     elif bebida_estoque == 2:
-        agua -= 100
-        cafe -= 30
+        agua_estoque -= 100
+        cafe_estoque -= 30
+        return agua_estoque, leite_estoque, cafe_estoque, chocolate_estoque
     elif bebida_estoque == 3:
-        agua -= 150
-        leite -= 50
-        cafe -= 20
+        agua_estoque -= 150
+        leite_estoque -= 50
+        cafe_estoque -= 20
+        return agua_estoque, leite_estoque, cafe_estoque, chocolate_estoque
     elif bebida_estoque == 4:
-        agua -= 100
-        leite -= 100
-        cafe -= 30
+        agua_estoque -= 100
+        leite_estoque -= 100
+        cafe_estoque -= 30
+        return agua_estoque, leite_estoque, cafe_estoque, chocolate_estoque
     elif bebida_estoque == 5:
-        agua -= 200
-        leite -= 100
-        chocolate -= 50
+        agua_estoque -= 200
+        leite_estoque -= 100
+        chocolate_estoque -= 50
+        return agua_estoque, leite_estoque, cafe_estoque, chocolate_estoque
     elif bebida_estoque == 6:
-        agua -= 200
-    mostrar_estoque()
+        agua_estoque -= 200
+        return agua_estoque, leite_estoque, cafe_estoque, chocolate_estoque
     
 def calcular_moedas(moedas, dinheiro_maquina, bebidas):
     '''Calcula a quantidade de moeda inserido na máquina e o valor do troco'''
     qtd_moedas = list(map(int,moedas.split())) # Com o map é possível aplicar uma função em cada item do iterável, nesse caso convertendo String em int
     moedas_variados = [1, 0.5, 0.25, 0.1, 0.05]
     troco = 0
+    dinheiro_total = 0
     for i, valor_moeda in enumerate(moedas_variados): # O enumerate obtem o indice de cada item da lista, além do prórpio item
         dinheiro_maquina += qtd_moedas[i] * valor_moeda
+    dinheiro_total = dinheiro_maquina
     if bebidas == 1:
         troco = dinheiro_maquina - 2.00
     elif bebidas == 2:
@@ -77,7 +84,7 @@ def calcular_moedas(moedas, dinheiro_maquina, bebidas):
         troco = dinheiro_maquina - 3.50
     elif bebidas == 6:
         troco = dinheiro_maquina - 2.00
-    return dinheiro_maquina, troco
+    return dinheiro_maquina, troco, dinheiro_total
 
 while desligar is False: # Até a pessoa inserir o comando "off" esta máquina de café continuará funcionando
     print(asc.titulo) # Printa no console o título em formato de ASC
@@ -102,19 +109,20 @@ while desligar is False: # Até a pessoa inserir o comando "off" esta máquina d
             continue
 
         moeda_inserido = input("Insira a quantidade de moedas de R$1, R$0.50, R$0.25, R$0.10, R$0.05 separado por espaço: ") # Ex: 2 1 0 0 0 = R$2.50
-        dinheiro_total_maquina, troco = calcular_moedas(moeda_inserido, dinheiro, bebida) # Ele pega dois valores retornados em duas variáveis
-        moeda_inserido = dinheiro_total_maquina - troco # DInheiro total inserido pelo cliente
-        print(f"Você inseriu no total: R${moeda_inserido:.2f}.")
+        dinheiro_total_maquina, troco, dinheiro_total_inserido = calcular_moedas(moeda_inserido, dinheiro, bebida) # Ele pega dois valores retornados em duas variáveis
+        print(f"Você inseriu no total: R${dinheiro_total_inserido:.2f}.")
         print(f"Seu troco: R${troco:.2f}.")
 
         print("\nEspere um pouco, estamos preparando sua bebida...")
         time.sleep(10.0) # Irá pausar por 10 segundos para mostrar o próximo print que é da linha de baixo
         print(f"\n{bebida_selecionada} está pronto! Se sirva com cuidado 🍵.")
 
-        calcular_estoque(bebida)
+        agua, leite, cafe, chocolate = calcular_estoque(bebida, agua, leite, cafe, chocolate)
+        dinheiro = dinheiro_total_maquina
+        mostrar_estoque(agua, leite, cafe, chocolate, dinheiro)
 
     elif comando == 'estoque':
-        mostrar_estoque()
+        mostrar_estoque(agua, leite, cafe, chocolate, dinheiro)
 
     elif comando == 'off':
         print("Desligando a máquina...")
