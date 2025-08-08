@@ -1,13 +1,6 @@
-# Target is the number up to which we count
-def fizz_buzz(target):
-    for number in range(1, target + 1):
-        if number % 3 == 0 and number % 5 == 0:
-            print("FizzBuzz")
-        if number % 3 == 0:
-            print("Fizz")
-        if number % 5 == 0:
-            print("Buzz")
-        else:
-            print(number)
+def quadrado(x):
+    return x ** 2
 
-fizz_buzz(16)
+valores = [2, 4, 6]
+resultado = list(map(quadrado, valores))
+print(resultado)  # [4, 16, 36]
