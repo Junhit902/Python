@@ -24,7 +24,7 @@ def bebidas_quente(bebida_escolhida):
             return "Chocolate quente"
         case 6:
             return "Chá quente"
-        case _:
+        case _ if bebida_escolhida >= 7 or bebida_escolhida <= 0 or bebida_escolhida is str:
             return "Opção inválida"
 
 def mostrar_estoque():
@@ -33,6 +33,30 @@ def mostrar_estoque():
         f"\nCafé: {cafe}g" \
         f"\nChocolate: {chocolate}g" \
         f"\nDinheiro: R${dinheiro}")
+    
+def calcular_estoque(bebida_estoque):
+    '''Calcula o estoque de cada bebida e retorna o valor de cada ingrediente que foi usado'''
+    if bebida_estoque == 1:
+        agua -= 200
+        cafe -= 20
+    elif bebida_estoque == 2:
+        agua -= 100
+        cafe -= 30
+    elif bebida_estoque == 3:
+        agua -= 150
+        leite -= 50
+        cafe -= 20
+    elif bebida_estoque == 4:
+        agua -= 100
+        leite -= 100
+        cafe -= 30
+    elif bebida_estoque == 5:
+        agua -= 200
+        leite -= 100
+        chocolate -= 50
+    elif bebida_estoque == 6:
+        agua -= 200
+    mostrar_estoque()
     
 def calcular_moedas(moedas, dinheiro_maquina, bebidas):
     '''Calcula a quantidade de moeda inserido na máquina e o valor do troco'''
@@ -68,9 +92,14 @@ while desligar is False: # Até a pessoa inserir o comando "off" esta máquina d
             "\n[4] - Cappucino (Café, leite vaporizado e espuma.) (R$3.00)" \
             "\n[5] - Chocolate quente (Leite e chocolate em pó) (R$3.50)" \
             "\n[6] - Chá quente (Camomila) (R$2.00)")
-
+        
         bebida = int(input("\nInsira o número correspondente a bebida: ")) # Entrada de dados do cliente para escolher a bebida desejada
         bebida_selecionada = bebidas_quente(bebida)
+
+        if bebida_selecionada == "Opção inválida":
+            os.system("cls")
+            print("Opção inválida. Insira um número válido.")
+            continue
 
         moeda_inserido = input("Insira a quantidade de moedas de R$1, R$0.50, R$0.25, R$0.10, R$0.05 separado por espaço: ") # Ex: 2 1 0 0 0 = R$2.50
         dinheiro_total_maquina, troco = calcular_moedas(moeda_inserido, dinheiro, bebida) # Ele pega dois valores retornados em duas variáveis
@@ -81,6 +110,8 @@ while desligar is False: # Até a pessoa inserir o comando "off" esta máquina d
         print("\nEspere um pouco, estamos preparando sua bebida...")
         time.sleep(10.0) # Irá pausar por 10 segundos para mostrar o próximo print que é da linha de baixo
         print(f"\n{bebida_selecionada} está pronto! Se sirva com cuidado 🍵.")
+
+        calcular_estoque(bebida)
 
     elif comando == 'estoque':
         mostrar_estoque()
