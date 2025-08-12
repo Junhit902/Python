@@ -1,11 +1,8 @@
-from turtle import Turtle, Screen
+import prettytable
 
-tartaruga = Turtle()
-print(tartaruga)
-tartaruga.shape("turtle")
-tartaruga.color("red", "green")
-tartaruga.forward(100)
+mesa = prettytable.PrettyTable()
 
-minha_tela = Screen()
-print(minha_tela.canvheight)
-minha_tela.exitonclick()
+mesa.add_column("Pokemon",["Pikachu","Squirtle","Charmander"])
+mesa.add_column("Tipo", ["Elétrico", "Água", "Fogo"])
+
+print(mesa)
