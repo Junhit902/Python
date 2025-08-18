@@ -2,8 +2,6 @@ import turtle as t
 from turtle import Screen
 import random
 
-angulo = 0
-
 tartaruga = t.Turtle()
 t.colormode(255)
 
@@ -20,11 +18,12 @@ tela = Screen()
 tartaruga.speed(0) # Poderia colocar como string 0 = "fastest", 10 = "fast", 6 = "normal", 
 #"slow" = 3, "slowest" = 1    Exemplo: tartaruga.speed("fastest")
 
+def desenhar_spirograph(angulo):
+    for _ in range(int(360 / angulo)):
+        tartaruga.pencolor(cores_aleatorias())
+        tartaruga.circle(100)
+        tartaruga.setheading(tartaruga.heading() + angulo)
 
-for _ in range(200):
-    tartaruga.pencolor(cores_aleatorias())
-    tartaruga.circle(80)
-    tartaruga.setheading(angulo)
-    angulo += 3
-    
+desenhar_spirograph(5)    
+
 tela.exitonclick()
