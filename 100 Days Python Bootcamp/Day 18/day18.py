@@ -5,9 +5,12 @@ tela = Screen()
 
 tartaruga.shape("turtle")
 tartaruga.color("green")
-tartaruga.forward(200)
-tartaruga.right(90) # Indica o ângulo a tartaruga muda a direção
-tartaruga.forward(200)
+
+for i in range(4):
+    tartaruga.forward(100)
+    tartaruga.left(90)
+    tartaruga.forward(100)
+
 
 
 tela.exitonclick()
