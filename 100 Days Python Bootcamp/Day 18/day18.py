@@ -14,8 +14,7 @@ while i != 10:
     tartaruga.pencolor(random.choice(cores.cores_variados))
     for _ in range(i):
         tartaruga.forward(100)
-        tartaruga.right(360/i)
+        tartaruga.right(360/i) # Ângulo
     i += 1
-
 
 tela.exitonclick()
