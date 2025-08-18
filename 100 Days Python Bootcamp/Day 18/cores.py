@@ -1,0 +1,22 @@
+cores_variados = [
+    "red",
+    "blue",
+    "green",
+    "orange",
+    "purple",
+    "brown",
+    "black",
+    "gray",
+    "cyan",
+    "magenta",
+    "lime",
+    "teal",
+    "indigo",
+    "violet",
+    "gold",
+    "crimson",
+    "darkgreen",
+    "navy",
+    "maroon",
+    "darkorange"
+]

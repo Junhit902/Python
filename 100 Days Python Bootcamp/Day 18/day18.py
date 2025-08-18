@@ -1,4 +1,6 @@
 from turtle import Turtle, Screen
+import random
+import cores
 
 tartaruga = Turtle()
 tela = Screen()
@@ -6,11 +8,14 @@ tela = Screen()
 tartaruga.shape("turtle")
 tartaruga.color("green")
 
-for _ in range(50):
-    tartaruga.forward(10)
-    tartaruga.penup()
-    tartaruga.forward(10)
-    tartaruga.pendown()
+i = 3
+
+while i != 10:
+    tartaruga.pencolor(random.choice(cores.cores_variados))
+    for _ in range(i):
+        tartaruga.forward(100)
+        tartaruga.right(360/i)
+    i += 1
 
 
 tela.exitonclick()
