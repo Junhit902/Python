@@ -11,6 +11,7 @@ posicao_y = -200
 turtle.colormode(255)
 tartaruga.penup()
 tartaruga.setposition(-250, -200)
+tartaruga.hideturtle()
 
 
 while repeticao != 10:
