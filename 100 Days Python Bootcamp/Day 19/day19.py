@@ -1,28 +1,30 @@
 from turtle import Turtle, Screen
+import random
 
-tartaruga = Turtle()
 tela = Screen()
 
-def mover_frente():
-    tartaruga.forward(10)
+tela.setup(width=700, height=500)
+aposta_usuario = tela.textinput(title="Corrida de Tartaruga", prompt="Faça a sua aposta, qual cor irá vencer?")
 
-def mover_atrás():
-    tartaruga.backward(10)
+cores = ["red",
+    "blue",
+    "green",
+    "orange",
+    "purple",
+    "brown",
+    "black",
+    "yellow"]
 
-def sentido_horario():
-    tartaruga.right(10)
+cores_aleatorios = random.sample(cores, 8)
+tartarugas = [] #lista para guardar tartarugas
+pos_y = -100 # posição inicial
 
-def sentido_anti_horario():
-    tartaruga.left(10)
-
-def limpar_tela():
-    tartaruga.reset()
-
-tela.onkeypress(fun=mover_frente, key='w')
-tela.onkeypress(fun=mover_atrás, key='s')
-tela.onkeypress(fun=sentido_horario, key='d')
-tela.onkeypress(fun=sentido_anti_horario, key='a')
-tela.onkeypress(fun=limpar_tela, key='c')
-tela.listen()
+for cor_tartaruga in cores_aleatorios:
+    tartaruga = Turtle(shape="turtle")
+    tartaruga.color(cor_tartaruga)
+    tartaruga.penup()
+    tartaruga.goto(x=-300, y=pos_y)
+    tartarugas.append(tartaruga)
+    pos_y += 30
 
 tela.exitonclick()
