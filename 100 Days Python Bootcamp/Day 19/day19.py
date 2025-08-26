@@ -20,6 +20,19 @@ cores_aleatorios = random.sample(cores, 8)
 tartarugas = [] #lista para guardar tartarugas
 pos_y = -100 # posição inicial
 
+def linha_chegada():
+    '''Função para desenhar a linha de chegada'''
+    linha_chegada = Turtle()
+    linha_chegada.penup()
+    linha_chegada.goto(x=300, y=250)
+    linha_chegada.setheading(270)
+    linha_chegada.pendown()
+    linha_chegada.pensize(10)
+    linha_chegada.pencolor("red")
+    linha_chegada.forward(500)
+
+linha_chegada()
+
 for cor_tartaruga in cores_aleatorios:
     tartaruga = Turtle(shape="turtle")
     tartaruga.color(cor_tartaruga)
@@ -35,7 +48,7 @@ while corrida_continua:
     for tartaruga in tartarugas:
         distancia_aleatoria = random.randint(0, 10)
         tartaruga.forward(distancia_aleatoria)
-    if tartaruga.xcor() > 310:
+    if tartaruga.xcor() > 290:
         cor_vencedor = tartaruga.pencolor().lower()
         corrida_continua = False
         if aposta_usuario == cor_vencedor:
