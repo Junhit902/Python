@@ -1,0 +1,755 @@
+Unnamed: 0,name,type,state,found,faculty_count,department_count,has_grad,has_remote,review_rating,review_count,difficulty_SD,difficulty_rank
+0,Hokkaido University,National,Hokkai Do,1876-08,33,78,True,False,4.16,1389.0,60.4,2
+1,Hokkaido University of Education,National,Hokkai Do,1943-04,3,8,True,False,3.79,544.0,47.1,5
+2,Muroran Institute of Technology,National,Hokkai Do,1897-05,3,10,True,False,3.66,126.0,39.0,7
+3,Otaru University of Commerce,National,Hokkai Do,1910-03,2,6,True,False,3.8,257.0,50.0,4
+4,Obihiro University of Agriculture And Veterinary Medicine,National,Hokkai Do,1941-04,3,5,True,False,4.2,87.0,54.5,3
+5,Asahikawa Medical University,National,Hokkai Do,1973-09,2,4,True,False,3.93,76.0,56.8,3
+6,Kitami Institute of Technology,National,Hokkai Do,1960-04,2,6,True,False,3.66,106.0,39.5,6
+7,Hirosaki University,National,Aomori Ken,1920-11,13,29,True,False,3.84,546.0,48.0,5
+8,Iwate University,National,Iwate Ken,1902-03,9,24,True,False,3.89,435.0,46.0,5
+9,Tohoku University,National,Miyagi Ken,1886-04,25,78,True,False,4.18,1213.0,60.3,2
+10,Miyagi University of Education,National,Miyagi Ken,1965-04,2,4,True,False,3.95,182.0,45.4,5
+11,Akita University,National,Akita Ken,1910-03,8,25,True,False,3.8,367.0,47.1,5
+12,Yamagata University,National,Yamagata Ken,1910-03,15,41,True,False,3.76,553.0,47.2,5
+13,Fukushima University,National,Fukushima Ken,1921-12,7,13,True,False,3.72,367.0,40.6,6
+14,Ibaraki University,National,Ibaraki Ken,1920-04,11,39,True,False,3.81,548.0,48.7,5
+15,University of Tsukuba,National,Ibaraki Ken,1973-10,20,97,True,False,4.17,1121.0,60.4,2
+16,Tsukuba University of Technology,National,Ibaraki Ken,1987-10,3,7,True,False,4.12,22.0,35.7,7
+17,Utsunomiya University,National,Tochigi Ken,1922-10,9,18,True,False,3.95,313.0,50.9,4
+18,Gunma University,National,Gunma Ken,1915-12,11,20,True,False,3.88,431.0,52.5,4
+19,Saitama University,National,Saitama Ken,1921-11,10,43,True,False,3.88,784.0,53.0,4
+20,Chiba University,National,Chiba Ken,1921-12,17,38,True,False,4.07,1088.0,58.1,3
+21,The University of Tokyo,National,Tokyo To,1877-04,25,132,True,False,4.34,2206.0,70.5,1
+22,Tokyo Medical And Dental University,National,Tokyo To,1928-10,4,12,True,False,4.23,158.0,60.6,2
+23,Tokyo University of Foreign Studies,National,Tokyo To,1899-04,4,6,True,False,4.19,404.0,63.7,2
+24,Tokyo Gakugei University,National,Tokyo To,1943-04,4,10,True,False,4.08,584.0,54.5,3
+25,Tokyo University of Agriculture And Technology,National,Tokyo To,1914-04,6,43,True,False,4.0,374.0,56.8,3
+26,Tokyo University of The Arts,National,Tokyo To,1887-10,7,38,True,False,4.25,176.0,54.2,3
+27,Tokyo Institute of Technology,National,Tokyo To,1881-05,12,12,True,False,4.25,433.0,65.0,1
+28,Tokyo University of Marine Science And Technology,National,Tokyo To,1875-11,6,20,True,False,4.16,187.0,53.1,4
+29,Ochanomizu University,National,Tokyo To,1874-03,4,20,True,False,4.3,396.0,60.6,2
+30,The University of Electro - Communications,National,Tokyo To,1942-04,2,9,True,False,3.92,169.0,57.0,3
+31,Hitotsubashi University,National,Tokyo To,1920-04,10,15,True,False,4.26,432.0,67.9,1
+32,Yokohama National University,National,Kanagawa Ken,1920-01,13,42,True,False,3.9,683.0,60.8,2
+33,Niigata University,National,Niigata Ken,1919-04,17,48,True,False,3.86,887.0,49.7,4
+34,Nagaoka University of Technology,National,Niigata Ken,1976-10,2,11,True,False,3.95,65.0,43.0,6
+35,Joetsu University of Education,National,Niigata Ken,1978-10,2,3,True,False,4.09,73.0,51.0,4
+36,University of Toyama,National,Toyama Ken,1920-12,21,56,True,False,3.81,624.0,50.8,4
+37,Kanazawa University,National,Ishikawa Ken,1894-09,12,48,True,False,3.76,734.0,53.3,4
+38,University of Fukui,National,Fukui Ken,1923-12,10,25,True,False,3.83,258.0,50.6,4
+39,University of Yamanashi,National,Yamanashi Ken,1924-09,7,23,True,False,3.82,252.0,48.4,5
+40,Shinshu University,National,Nagano Ken,1910-03,13,29,True,False,3.93,767.0,51.5,4
+41,Gifu University,National,Gifu Ken,1923-12,14,38,True,False,3.93,596.0,53.0,4
+42,National University Corporation Shizuoka University,National,Shizuoka Ken,1922-08,11,35,True,False,3.94,703.0,51.3,4
+43,Hamamatsu University School of Medicine,National,Shizuoka Ken,1974-06,2,5,True,False,3.89,66.0,64.4,1
+44,Nagoya University,National,Aichi Ken,1908-04,22,77,True,False,4.22,1281.0,59.6,2
+45,Aichi University of Education,National,Aichi Ken,1943-04,3,6,True,False,3.87,541.0,51.0,4
+46,Nagoya Institute of Technology,National,Aichi Ken,1905-03,2,11,True,False,4.01,294.0,57.3,3
+47,Toyohashi University of Technology,National,Aichi Ken,1976-10,2,10,True,False,3.87,63.0,53.0,4
+48,Mie University,National,Mie Ken,1921-12,11,35,True,False,3.94,616.0,52.0,4
+49,Shiga University,National,Shiga Ken,1922-10,7,16,True,False,3.83,343.0,51.7,4
+50,Shiga University of Medical Science,National,Shiga Ken,1974-10,2,4,True,False,3.88,61.0,60.3,2
+51,Kyoto University,National,Kyoto Fu,1886-04,28,94,True,False,4.2,1434.0,65.6,1
+52,Kyoto University of Education,National,Kyoto Fu,1943-04,4,6,True,False,3.99,178.0,51.6,4
+53,Kyoto Institute of Technology,National,Kyoto Fu,1899-06,2,24,True,False,4.04,215.0,56.4,3
+54,Osaka University,National,Osaka Fu,1917-04,26,75,True,False,4.12,1840.0,61.3,2
+55,Osaka Kyoiku University,National,Osaka Fu,1943-04,6,17,True,False,3.99,566.0,52.2,4
+56,Hyogo University of Teacher Education,National,Hyogo Ken,1978-10,3,7,True,False,3.83,84.0,53.5,4
+57,Kobe University,National,Hyogo Ken,1902-03,28,69,True,False,3.99,1344.0,60.8,2
+58,Nara University of Education,National,Nara Ken,1943-04,2,3,True,False,3.91,147.0,51.7,4
+59,Nara Women’s University,National,Nara Ken,1908-04,5,25,True,False,4.06,347.0,55.2,3
+60,Wakayama University,National,Wakayama Ken,1922-10,8,10,True,False,3.86,386.0,50.3,4
+61,Tottori University,National,Tottori Ken,1920-11,9,20,True,False,3.83,393.0,50.6,4
+62,Shimane University,National,Shimane Ken,1920-11,12,31,True,False,3.84,339.0,48.1,5
+63,Okayama University,National,Okayama Ken,1900-03,21,67,True,False,4.02,1084.0,53.4,4
+64,Hiroshima University,National,Hiroshima Ken,1902-04,17,39,True,False,4.04,1136.0,54.2,3
+65,Yamaguchi University,National,Yamaguchi Ken,1905-04,18,47,True,False,3.83,717.0,49.7,4
+66,Tokushima University,National,Tokushima Ken,1922-10,12,23,True,False,3.81,388.0,49.7,4
+67,Naruto University of Education,National,Tokushima Ken,1981-10,2,3,True,False,4.16,35.0,50.2,4
+68,Kagawa University,National,Kagawa Ken,1923-12,12,22,True,False,3.89,432.0,50.9,4
+69,Ehime University,National,Ehime Ken,1919-04,13,30,True,False,3.93,673.0,48.7,5
+70,Kochi University,National,Kochi Ken,1922-08,10,31,True,False,3.98,360.0,48.7,5
+71,University of Teacher Education Fukuoka,National,Fukuoka Ken,1943-04,3,6,True,False,3.86,297.0,50.4,4
+72,Kyushu University,National,Fukuoka Ken,1910-12,30,105,True,False,4.04,1057.0,59.1,2
+73,Kyushu Institute of Technology,National,Fukuoka Ken,1907-07,5,16,True,False,3.83,277.0,52.5,4
+74,Saga University,National,Saga Ken,1920-04,13,17,True,False,3.82,419.0,50.4,4
+75,Nagasaki University,National,Nagasaki Ken,1905-03,17,31,True,False,3.88,554.0,50.1,4
+76,Kumamoto University,National,Kumamoto Ken,1887-05,15,45,True,False,3.93,618.0,52.0,4
+77,Oita University,National,Oita Ken,1921-12,12,27,True,False,3.89,429.0,50.3,4
+78,University of Miyazaki,National,Miyazaki Ken,1943-04,13,31,True,False,3.92,354.0,50.4,4
+79,Kagoshima University,National,Kagoshima Ken,1901-03,20,69,True,False,4.02,706.0,48.3,5
+80,National Institute of Fitness And Sports In Kanoya,National,Kagoshima Ken,1981-10,2,6,True,False,4.05,55.0,49.0,5
+81,University of The Ryukyus,National,Okinawa Ken,1950-05,15,37,True,False,3.91,499.0,46.1,5
+86,Sapporo Medical University,Public,Hokkai Do,1945-04,5,12,True,False,4.09,134.0,55.4,3
+87,Future University Hakodate,Public,Hokkai Do,1999-12,2,3,True,False,4.01,54.0,43.5,6
+88,Kushiro Public University of Economics,Public,Hokkai Do,1987-12,1,2,False,False,3.47,109.0,40.0,6
+89,Nayoro City University,Public,Hokkai Do,2005-12,1,4,False,False,4.05,59.0,49.5,4
+90,SAPPORO CITY UNIVERSITY,Public,Hokkai Do,2005-12,5,5,True,False,3.94,106.0,50.5,4
+91,Chitose Institute of Science And Technology,Public,Hokkai Do,1997-12,2,4,True,False,3.89,35.0,46.5,5
+92,Aomori Public University,Public,Aomori Ken,1992-12,2,4,True,False,3.8,138.0,43.6,6
+93,Aomori University of Health And Welfare,Public,Aomori Ken,1998-12,2,5,True,False,4.26,112.0,48.5,5
+94,Iwate Prefectural University,Public,Iwate Ken,1998-04,8,9,True,False,3.95,179.0,49.3,4
+95,Miyagi Akita Prefectural University,Public,Miyagi Ken,1996-12,6,9,True,False,3.8,211.0,44.5,5
+96,Akita Prefectural University,Public,Akita Ken,1998-12,4,13,True,False,3.93,121.0,40.9,6
+97,Akita International University,Public,Akita Ken,2004-04,2,4,True,False,4.18,100.0,69.7,1
+98,Akita University of Art,Public,Akita Ken,2012-11,2,2,True,False,3.75,27.0,46.5,5
+100,Yamagata Prefectural Yonezawa University of Nutrition Sciences,Public,Yamagata Ken,2013-10,2,2,True,False,3.9,10.0,46.0,5
+101,Fukushima Medical University,Public,Fukushima Ken,1947-06,5,10,True,False,3.96,68.0,53.8,4
+102,The University of Aizu,Public,Fukushima Ken,1992-12,2,3,True,False,4.06,68.0,44.0,6
+103,Ibaraki Prefectural University of Health Sciences,Public,Ibaraki Ken,1994-12,3,9,True,False,4.09,71.0,51.1,4
+104,Takasaki City University of Economics,Public,Gunma Ken,1952-04,4,10,True,False,3.67,369.0,54.0,4
+105,Maebashi Institute of Technology,Public,Gunma Ken,1952-04,2,14,True,False,3.69,45.0,43.8,6
+106,Gunma Prefectural Women’s University,Public,Gunma Ken,1980-01,4,11,True,False,4.17,119.0,51.7,4
+107,Gunma Prefectural College of Health Sciences,Public,Gunma Ken,2004-11,4,4,True,False,4.23,44.0,51.5,4
+108,Saitama Prefectural University,Public,Saitama Ken,1999-04,2,6,True,False,4.13,174.0,50.3,4
+110,Tokyo Metropolitan University,Public,Tokyo To,2004-09,18,43,True,False,4.06,646.0,56.7,3
+112,Yokohama City University,Public,Kanagawa Ken,1928-03,11,15,True,False,3.87,398.0,59.2,2
+113,Kanagawa University of Human Services,Public,Kanagawa Ken,2002-12,3,6,True,False,4.14,135.0,50.6,4
+114,Niigata College of Nursing,Public,Niigata Ken,2001-12,2,2,True,False,4.05,33.0,50.5,4
+115,University of Niigata Prefecture,Public,Niigata Ken,2009-04,4,5,True,False,4.04,128.0,49.9,4
+116,Nagaoka Institute of Design,Public,Niigata Ken,1994-04,2,5,True,False,4.1,62.0,50.2,4
+117,SANJO CITY UNIVERSITY,Public,Niigata Ken,2021-04,1,1,False,False,3.806595460614152,249.7570093457944,42.5,6
+118,Toyama Prefectural University,Public,Toyama Ken,1989-12,3,15,True,False,3.72,73.0,43.9,6
+119,Komatsu University,Public,Ishikawa Ken,2018-04,4,7,True,False,3.55,11.0,49.5,4
+120,Ishikawa Prefectural University,Public,Ishikawa Ken,2004-11,2,9,True,False,3.78,41.0,49.0,5
+121,Kanazawa College of Art,Public,Ishikawa Ken,1946-07,2,9,True,False,4.0,42.0,51.3,4
+122,Ishikawa Prefectural Nursing University,Public,Ishikawa Ken,1999-12,2,2,True,False,3.82,27.0,50.0,4
+123,Fukui Prefectural University,Public,Fukui Ken,1991-12,7,15,True,False,3.66,120.0,47.6,5
+124,Tsuruga Nursing University,Public,Fukui Ken,2014-04,3,3,True,False,3.89,15.0,50.5,4
+125,Tsuru University,Public,Yamanashi Ken,1955-04,4,12,True,False,3.83,284.0,55.1,3
+126,Yamanashi Prefectural University,Public,Yamanashi Ken,2004-11,4,6,True,False,3.8,92.0,50.9,4
+127,Suwa University of Science,Public,Nagano Ken,2001-12,2,3,True,False,3.85,26.0,46.8,5
+128,The University of Nagano,Public,Nagano Ken,2018-04,4,5,True,False,3.82,17.0,49.4,4
+129,Nagano College of Nursing,Public,Nagano Ken,1994-12,2,2,True,False,3.87,25.0,49.0,5
+130,Nagano University,Public,Nagano Ken,1966-01,4,5,True,False,3.57,119.0,50.2,4
+131,Gifu Pharmaceutical University,Public,Gifu Ken,1931-09,2,4,True,False,3.83,51.0,58.0,3
+132,Gifu College of Nursing,Public,Gifu Ken,1999-12,2,2,True,False,3.79,46.0,52.0,4
+134,Shizuoka Professional University of Agriculture,Public,Shizuoka Ken,2020-04,1,1,False,False,3.0,1.0,50.0,4
+135,University of Shizuoka,Public,Shizuoka Ken,1986-12,9,18,True,False,3.96,312.0,50.7,4
+136,Shizuoka University of Art And Culture,Public,Shizuoka Ken,1999-12,4,6,True,False,4.15,145.0,52.1,4
+138,Nagoya City University,Public,Aichi Ken,1948-04,14,28,True,False,3.9,471.0,56.7,3
+139,Aichi University of The Arts,Public,Aichi Ken,1966-01,4,5,True,False,3.93,81.0,48.2,5
+140,Aichi Prefectural University,Public,Aichi Ken,2008-10,9,18,True,False,3.99,470.0,52.5,4
+141,Mie Prefectural College of Nursing,Public,Mie Ken,1996-12,2,2,True,False,3.92,37.0,50.0,4
+142,The University of Shiga Prefecture,Public,Shiga Ken,1994-12,8,22,True,False,3.96,204.0,50.0,4
+143,Kyoto City University of Arts,Public,Kyoto Fu,1909-03,4,18,True,False,4.04,78.0,53.4,4
+144,Kyoto Prefectural University,Public,Kyoto Fu,1895-04,6,19,True,False,4.03,251.0,56.6,3
+145,Kyoto Prefectural University of Medicine,Public,Kyoto Fu,1872-11,3,5,True,False,4.0,88.0,60.0,2
+146,The University of Fukuchiyama,Public,Kyoto Fu,1999-12,2,3,False,False,3.46,18.0,48.8,5
+150,Kobe City University of Foreign Studies,Public,Hyogo Ken,1946-03,3,13,True,False,4.03,233.0,59.0,3
+151,Kobe City College of Nursing,Public,Hyogo Ken,1995-12,2,2,True,False,4.15,42.0,50.0,4
+152,University of Hyogo,Public,Hyogo Ken,2003-07,23,33,True,False,3.72,445.0,51.1,4
+153,Professional College of Arts and Tourism,Public,Hyogo Ken,2021-04,1,1,False,False,3.0,2.0,48.0,5
+154,Nara Medical University,Public,Nara Ken,1948-04,3,4,True,False,3.63,100.0,59.5,2
+155,Nara Prefectural University,Public,Nara Ken,1989-12,1,1,False,False,3.54,85.0,51.0,4
+156,Wakayama Medical University,Public,Wakayama Ken,1948-02,6,9,True,False,3.98,67.0,57.2,3
+157,Tottori University of Environmental Studies,Public,Tottori Ken,2000-12,3,4,True,False,3.86,73.0,45.3,5
+158,The University of Shimane,Public,Shimane Ken,1999-12,8,12,True,False,3.8,97.0,52.3,4
+159,Okayama Prefectural University,Public,Okayama Ken,1992-12,6,20,True,False,3.96,164.0,49.4,4
+160,Niimi University,Public,Okayama Ken,2009-10,3,5,True,False,4.28,30.0,50.0,4
+161,Prefectural University of Hiroshima,Public,Hiroshima Ken,2004-07,9,21,True,False,4.0,261.0,48.7,5
+162,Onomichi City University,Public,Hiroshima Ken,2000-12,5,6,True,False,3.76,92.0,50.1,4
+163,Hiroshima City University,Public,Hiroshima Ken,1993-12,7,16,True,False,3.87,145.0,51.3,4
+164,Fukuyama City University,Public,Hiroshima Ken,2010-10,4,4,True,False,3.66,78.0,50.2,4
+165,Eikei University of Hiroshima,Public,Hiroshima Ken,2021-04,1,1,False,False,4.0,1.0,48.0,5
+166,Shimonoseki City University,Public,Yamaguchi Ken,1956-04,3,5,True,False,3.62,187.0,47.1,5
+167,Yamaguchi Prefectural University,Public,Yamaguchi Ken,1941-02,6,8,True,False,3.99,174.0,50.4,4
+168,Sanyo-Onoda City University,Public,Yamaguchi Ken,1994-12,3,5,True,False,3.71,56.0,48.2,5
+169,Kagawa Prefectural University of Health Sciences,Public,Kagawa Ken,2003-11,3,5,True,False,4.15,24.0,50.3,4
+170,Ehime Prefectural University of Health Sciences,Public,Ehime Ken,2003-11,3,5,True,False,4.18,44.0,50.0,4
+171,University of Kochi,Public,Kochi Ken,1944-12,6,7,True,False,4.01,137.0,51.4,4
+172,Kochi University of Technology,Public,Kochi Ken,1996-12,5,5,True,False,4.02,118.0,45.9,5
+173,The University of Kitakyushu,Public,Fukuoka Ken,1946-07,10,25,True,False,3.83,538.0,48.9,5
+174,Kyushu Dental University,Public,Fukuoka Ken,1921-07,2,4,True,False,3.82,41.0,48.0,5
+175,Fukuoka Women's University,Public,Fukuoka Ken,1922-06,3,6,True,False,4.09,151.0,51.2,4
+176,Fukuoka Prefectural University,Public,Fukuoka Ken,1991-12,4,8,True,False,3.88,178.0,50.4,4
+177,University of Nagasaki,Public,Nagasaki Ken,2007-12,6,13,True,False,3.74,241.0,46.4,5
+178,Prefectural University of Kumamoto,Public,Kumamoto Ken,1947-03,6,8,True,False,3.8,189.0,49.1,4
+180,Miyazaki Municipal University,Public,Miyazaki Ken,1992-12,1,1,False,False,3.9,89.0,47.0,5
+181,Miyazaki Prefectural Nursing University,Public,Miyazaki Ken,1996-12,3,3,True,False,4.21,29.0,50.5,4
+182,Meio University,Public,Okinawa Ken,1993-12,5,7,True,False,3.87,129.0,42.3,6
+183,Okinawa Prefectural University of Arts,Public,Okinawa Ken,1986-04,5,10,True,False,3.92,23.0,46.5,5
+184,Okinawa Prefectural College of Nursing,Public,Okinawa Ken,1998-10,3,3,True,False,4.08,19.0,46.5,5
+185,Shunan University,Public,Yamaguchi Ken,1971-03,2,3,False,False,3.4,35.0,46.3,5
+186,Kawasaki City College of Nursing,Public,Kanagawa Ken,2022-04,1,1,False,False,3.0,1.0,50.0,4
+187,Sapporo University,Private,Hokkai Do,1967-02,2,2,True,False,3.79,146.0,36.3,7
+188,Sapporo Gakuin University,Private,Hokkai Do,1946-06,9,11,True,False,3.85,158.0,37.8,7
+189,Hakodate University,Private,Hokkai Do,1965-04,1,1,False,False,3.55,27.0,35.5,7
+190,Fuji Women’s University,Private,Hokkai Do,1961-03,3,9,True,False,3.98,288.0,35.6,7
+191,Hokusei Gakuen University,Private,Hokkai Do,1962-01,6,12,True,False,3.9,396.0,44.5,5
+192,Hokkai - Gakuen University,Private,Hokkai Do,1952-03,14,20,True,False,3.81,637.0,42.3,6
+193,Hokkaido University of Science,Private,Hokkai Do,1967-01,8,25,True,False,3.77,198.0,41.3,6
+194,Rakuno Gakuen University,Private,Hokkai Do,1960-01,4,11,True,False,3.77,223.0,43.0,6
+196,Health Sciences University of Hokkaido,Private,Hokkai Do,1974-02,11,15,True,False,3.89,213.0,41.2,6
+197,Hokkai School of Commerce,Private,Hokkai Do,1977-01,2,3,True,False,3.61,35.0,35.3,7
+198,Seisa Dohto University,Private,Hokkai Do,1978-02,3,4,False,False,3.87,25.0,36.6,7
+199,Hokkaido Information University,Private,Hokkai Do,1988-12,5,7,True,True,3.83,90.0,39.2,6
+200,Sapporo International University,Private,Hokkai Do,1992-12,6,10,True,False,3.85,109.0,35.5,7
+201,Hokusho University,Private,Hokkai Do,1996-12,5,9,True,False,3.96,129.0,37.0,7
+202,Hokuyo University,Private,Hokkai Do,1997-12,1,1,False,False,3.97,13.0,35.5,7
+203,Japanese Red Cross Hokkaido College of Nursing,Private,Hokkai Do,1998-12,2,3,True,False,3.94,60.0,36.0,7
+204,Hokkaido Bunkyo University,Private,Hokkai Do,1998-12,8,13,True,False,3.62,180.0,36.3,7
+205,Tenshi College,Private,Hokkai Do,1999-12,3,5,True,False,4.02,84.0,47.0,5
+206,Ikueikan University,Private,Hokkai Do,1999-12,2,2,False,False,4.43,14.0,35.0,7
+207,Sapporo Otani University,Private,Hokkai Do,2006-04,2,3,False,False,3.94,79.0,36.4,7
+208,Sapporo University of Health Sciences,Private,Hokkai Do,2012-11,1,2,False,False,3.63,20.0,38.8,7
+209,Japan HealthCare University,Private,Hokkai Do,2014-04,3,8,False,False,3.54,17.0,39.0,7
+210,Hokkaido Chitose College of Rehabilitation,Private,Hokkai Do,2017-04,1,1,False,False,3.69,13.0,35.5,7
+211,Aomori University,Private,Aomori Ken,1968-03,4,4,False,False,3.5,80.0,36.5,7
+212,Shibata Gakuen University,Private,Aomori Ken,1969-02,1,2,False,False,3.92,96.0,35.3,7
+213,Hirosaki Gakuin University,Private,Aomori Ken,1971-01,5,6,True,False,3.41,54.0,35.5,7
+214,Hachinohe Institute of Technology,Private,Aomori Ken,1972-01,3,10,True,False,3.61,59.0,35.5,7
+215,Hachinohe Gakuin University,Private,Aomori Ken,1981-01,2,3,False,False,3.69,33.0,35.5,7
+216,Aomori Chuo Gakuin University,Private,Aomori Ken,1997-12,4,4,True,False,3.66,57.0,36.0,7
+217,Hirosaki University of Health and Welfare,Private,Aomori Ken,2008-10,1,2,False,False,3.71,35.0,38.0,7
+218,Iwate Medical University,Private,Iwate Ken,1928-02,7,13,True,False,3.57,78.0,46.3,5
+219,Fuji University,Private,Iwate Ken,1965-01,2,3,True,False,3.63,33.0,35.5,7
+220,The University of Morioka,Private,Iwate Ken,1981-01,2,5,False,False,3.78,152.0,35.1,7
+221,Iwate University of Health and Medical Sciences,Private,Iwate Ken,2016-08,2,2,True,False,3.33,10.0,38.0,7
+222,Sendai University,Private,Miyagi Ken,1967-01,2,7,True,False,3.63,104.0,35.7,7
+223,Tohoku Gakuin University,Private,Miyagi Ken,1946-03,12,29,True,False,3.75,781.0,45.5,5
+224,Tohoku Institute of Technology,Private,Miyagi Ken,1964-01,5,15,True,False,3.62,140.0,38.0,7
+225,Tohoku Fukushi University,Private,Miyagi Ken,1962-01,8,15,True,True,3.78,493.0,44.0,6
+226,Tohoku Medical And Pharmaceutical University,Private,Miyagi Ken,1939-04,3,5,True,False,3.74,140.0,51.9,4
+227,Tohoku Seikatsu Bunka University,Private,Miyagi Ken,1958-01,2,2,False,False,3.64,44.0,36.5,7
+228,Miyagi Gakuin Women’s University,Private,Miyagi Ken,1946-06,6,14,True,False,3.9,296.0,37.5,7
+229,Ishinomaki Senshu University,Private,Miyagi Ken,1988-12,5,13,True,False,3.65,62.0,35.3,7
+230,Sendai Shirayuri Women’s College,Private,Miyagi Ken,1995-12,1,4,False,False,3.58,73.0,36.0,7
+231,Tohoku Bunka Gakuen University,Private,Miyagi Ken,1998-12,7,11,True,False,3.69,84.0,35.9,7
+232,Shokei Gakuin University,Private,Miyagi Ken,2002-12,4,8,True,False,3.82,108.0,36.3,7
+233,North Asia University,Private,Akita Ken,1964-01,3,4,False,False,3.26,39.0,35.5,7
+234,Akita University of Nursing And Welfare,Private,Akita Ken,2004-11,1,2,False,False,4.15,32.0,35.5,7
+235,Japanese Red Cross Akita College of Nursing,Private,Akita Ken,2008-10,2,3,True,False,3.84,25.0,36.5,7
+236,Tohoku University of Art & Design,Private,Yamagata Ken,1992-04,3,13,True,False,4.12,131.0,49.7,4
+237,Tohoku University of Community Service And Science,Private,Yamagata Ken,2000-12,2,3,True,False,3.48,39.0,35.5,7
+238,Tohoku Bunkyo College,Private,Yamagata Ken,2010-10,2,3,False,False,3.82,35.0,38.0,7
+239,Koriyama Women’s University,Private,Fukushima Ken,1966-01,2,3,True,False,3.76,59.0,35.7,7
+240,Ohu University,Private,Fukushima Ken,1972-02,3,3,True,False,3.55,38.0,35.0,7
+241,Iryo Sosei University,Private,Fukushima Ken,1986-04,8,9,True,False,3.46,65.0,35.6,7
+242,Higashi Nippon International University,Private,Fukushima Ken,1994-12,3,3,False,False,3.85,28.0,36.0,7
+243,Fukushima College,Private,Fukushima Ken,2002-12,2,3,True,False,3.86,35.0,35.0,7
+244,Ibaraki Christian University,Private,Ibaraki Ken,1967-04,7,11,True,False,3.87,171.0,41.4,6
+245,Ryutsu Keizai University,Private,Ibaraki Ken,1965-01,12,17,True,False,3.71,203.0,38.9,7
+246,Tokiwa University,Private,Ibaraki Ken,1983-01,5,11,True,False,3.75,135.0,38.8,7
+247,Tsukuba International University,Private,Ibaraki Ken,1993-12,1,6,False,False,3.68,79.0,36.7,7
+249,Nihon Wellness Sports University,Private,Ibaraki Ken,2012-04,3,3,False,True,3.58,6.0,35.0,7
+250,Ashikaga University,Private,Tochigi Ken,1967-01,3,4,True,False,3.66,42.0,36.4,7
+251,Hakuoh University,Private,Tochigi Ken,1985-12,5,5,True,False,3.9,363.0,40.6,6
+252,Sakushin Gakuin University,Private,Tochigi Ken,1989-04,4,7,True,False,3.83,45.0,36.5,7
+253,International University of Health And Welfare,Private,Tochigi Ken,1994-12,16,20,True,False,3.92,408.0,44.2,5
+254,Utsunomiya Kyowa University,Private,Tochigi Ken,1999-04,2,2,False,False,3.87,21.0,35.5,7
+255,Bunsei University of Art,Private,Tochigi Ken,1998-12,2,2,True,False,3.8,12.0,36.0,7
+256,Jichi Medical University,Private,Tochigi Ken,1972-02,4,7,True,False,4.1,64.0,58.0,3
+257,Dokkyo Medical University,Private,Tochigi Ken,1972-07,5,9,True,False,3.95,63.0,57.0,3
+258,Ikuei University,Private,Gunma Ken,2017-08,1,1,False,False,3.81,5.0,36.5,7
+259,Kiryu University,Private,Gunma Ken,2007-12,2,3,False,False,3.43,35.0,38.8,7
+260,Gunma Paz University,Private,Gunma Ken,2004-11,5,8,True,False,3.79,49.0,43.2,6
+261,Gunma University of Health And Welfare,Private,Gunma Ken,2001-12,5,5,True,False,3.49,73.0,41.5,6
+262,Takasaki University of Health And Welfare,Private,Gunma Ken,2000-12,9,15,True,False,3.76,139.0,43.1,6
+263,Takasaki University of Commerce,Private,Gunma Ken,2001-04,2,3,True,False,3.85,41.0,40.0,6
+264,Jobu University,Private,Gunma Ken,1968-03,3,4,True,False,3.6,54.0,36.7,7
+265,Kanto Gakuen University,Private,Gunma Ken,1976-01,1,2,False,False,3.72,63.0,36.0,7
+266,KYOAI GAKUEN UNIVERSITY,Private,Gunma Ken,1998-12,1,1,False,False,3.96,92.0,39.8,6
+267,Nihon Institute of Medical Science,Private,Saitama Ken,2006-11,1,5,False,False,3.16,64.0,39.2,6
+268,Nihon Pharmaceutical University,Private,Saitama Ken,2003-11,2,3,True,False,3.44,84.0,36.7,7
+269,Musashino Gakuin University,Private,Saitama Ken,2003-11,2,3,True,False,3.71,17.0,35.5,7
+270,Urawa University,Private,Saitama Ken,2002-12,2,4,False,False,4.04,54.0,35.5,7
+271,Institute of Technologists,Private,Saitama Ken,2001-04,2,3,True,False,3.83,51.0,35.5,7
+272,Kyoei University,Private,Saitama Ken,2000-12,3,3,False,False,3.53,51.0,39.0,7
+273,Saitama Gakuen University,Private,Saitama Ken,2000-12,5,7,True,False,3.65,85.0,38.8,7
+274,Shobi University,Private,Saitama Ken,1999-12,5,10,True,False,3.65,131.0,35.0,7
+275,University of Human Arts And Sciences,Private,Saitama Ken,1999-12,4,6,True,True,3.61,62.0,36.1,7
+276,Bunri University of Hospitality,Private,Saitama Ken,1998-12,2,3,False,False,3.49,78.0,35.5,7
+277,Jumonji University,Private,Saitama Ken,1996-04,5,14,True,False,3.81,229.0,37.4,7
+278,Heisei International University,Private,Saitama Ken,1995-12,3,4,True,False,3.74,32.0,35.5,7
+279,Tokyo International University,Private,Saitama Ken,1965-01,11,15,True,False,3.96,424.0,36.7,7
+280,Josai University,Private,Saitama Ken,1965-01,10,17,True,False,3.52,275.0,37.4,7
+282,Dokkyo University,Private,Saitama Ken,1964-04,7,16,True,False,3.95,682.0,50.4,4
+283,Nippon Institute of Technology,Private,Saitama Ken,1967-03,6,13,True,False,3.66,117.0,36.9,7
+284,Meikai University,Private,Saitama Ken,1970-03,11,13,True,False,3.77,234.0,39.5,6
+285,Saitama Medical University,Private,Saitama Ken,1972-02,4,10,True,False,3.8,79.0,46.7,5
+286,Saitama Institute of Technology,Private,Saitama Ken,1976-01,4,10,True,False,3.59,79.0,35.5,7
+287,Surugadai University,Private,Saitama Ken,1986-12,8,11,True,False,3.75,154.0,42.1,6
+288,Seigakuin University,Private,Saitama Ken,1988-04,6,8,True,False,3.7,71.0,35.5,7
+289,Kagawa Nutrition University,Private,Saitama Ken,1961-03,2,5,True,False,4.12,223.0,43.3,6
+290,Tohto University,Private,Saitama Ken,2008-10,4,4,False,False,3.46,40.0,36.0,7
+291,Japan University of Health Sciences,Private,Saitama Ken,2009-10,1,2,False,False,3.33,24.0,35.5,7
+292,Chiba Institute of Science,Private,Chiba Ken,2003-11,7,12,True,False,3.31,73.0,37.4,7
+293,Aikoku Gakuen University,Private,Chiba Ken,1997-12,1,1,False,False,3.68,11.0,38.0,7
+294,Kaichi International University,Private,Chiba Ken,1999-12,3,3,False,False,4.07,23.0,35.7,7
+295,Seiwa University,Private,Chiba Ken,1993-12,1,1,False,False,3.19,27.0,37.5,7
+296,Josai International University,Private,Chiba Ken,1991-12,14,20,True,False,3.61,247.0,38.9,7
+297,Shukutoku University,Private,Chiba Ken,1965-01,8,14,True,False,3.81,307.0,40.4,6
+298,Keiai University,Private,Chiba Ken,1966-01,3,4,False,False,3.74,69.0,37.8,7
+299,Chiba Institute of Technology,Private,Chiba Ken,1942-05,10,32,True,False,3.75,361.0,46.2,5
+300,Chiba University of Commerce,Private,Chiba Ken,1928-02,9,11,True,False,3.69,213.0,43.4,6
+301,Chuogakuin University,Private,Chiba Ken,1966-01,4,4,True,False,3.76,119.0,38.2,7
+302,Reitaku University,Private,Chiba Ken,1942-04,6,9,True,False,3.81,118.0,39.3,6
+303,Wayo Women’s University,Private,Chiba Ken,1928-10,6,12,True,False,4.05,199.0,37.7,7
+304,International Budo University,Private,Chiba Ken,1983-12,3,4,True,False,3.59,53.0,37.8,7
+305,Kanda University of International Studies,Private,Chiba Ken,1987-04,4,9,True,False,4.05,334.0,45.2,5
+306,Chiba Keizai University,Private,Chiba Ken,1987-12,2,3,True,False,3.65,72.0,43.0,6
+307,Shumei University,Private,Chiba Ken,1987-12,5,5,False,False,3.93,84.0,40.9,6
+308,Kawamura Gakuen Woman’s University,Private,Chiba Ken,1987-12,4,11,True,False,3.51,79.0,37.6,7
+309,Tokyo University of Information Sciences,Private,Chiba Ken,1988-04,3,3,True,False,3.83,104.0,41.5,6
+311,Seitoku University,Private,Chiba Ken,1989-12,18,25,True,True,3.6,350.0,37.9,7
+312,Edogawa University,Private,Chiba Ken,1989-12,2,6,False,False,3.57,111.0,42.4,6
+313,Ryotokuji University,Private,Chiba Ken,2005-12,1,3,False,False,3.66,54.0,39.3,6
+314,Uekusa Gakuen University,Private,Chiba Ken,2007-12,2,2,False,False,3.88,62.0,36.2,7
+315,Saniku Gakuin College,Private,Chiba Ken,2007-12,2,2,True,False,4.08,14.0,38.0,7
+316,Kameda University of Health Sciences,Private,Chiba Ken,2011-10,2,2,True,False,3.31,8.0,35.0,7
+317,Tokyo University of Social Welfare,Private,Gunma Ken,1999-12,14,15,True,True,3.82,367.0,35.5,7
+318,Atomi University,Private,Tokyo To,1965-01,6,11,True,False,3.83,323.0,41.1,6
+319,Bunkyo University,Private,Tokyo To,1966-01,14,25,True,False,3.89,676.0,46.7,5
+320,Bunkyo Gakuin University,Private,Tokyo To,1990-12,9,16,True,False,3.74,242.0,36.9,7
+321,Mejiro University,Private,Tokyo To,1993-12,15,27,True,False,3.51,362.0,39.4,6
+322,Tokyo Seitoku University,Private,Tokyo To,1992-12,6,9,True,False,3.87,118.0,38.0,7
+323,Toyo Gakuen University,Private,Tokyo To,1992-04,4,5,True,False,3.54,99.0,38.3,7
+324,Teikyo Heisei University,Private,Tokyo To,1986-12,12,30,True,True,3.8,669.0,40.7,6
+325,Aoyama Gakuin University,Private,Tokyo To,1949-04,22,52,True,False,4.03,1871.0,60.2,2
+327,Otsuma Women’s University,Private,Tokyo To,1949-03,6,15,True,False,3.95,613.0,44.4,5
+328,Gakushuin University,Private,Tokyo To,1877-10,12,38,True,False,4.11,805.0,56.8,3
+329,Kitasato University,Private,Tokyo To,1962-04,14,27,True,False,3.98,621.0,46.6,5
+330,Kyoritsu Women’s University,Private,Tokyo To,1928-10,9,16,True,False,3.92,489.0,45.7,5
+331,Keio University,Private,Tokyo To,1890-01,28,59,True,True,4.19,2682.0,66.3,1
+332,Kogakuin University,Private,Tokyo To,1944-03,7,24,True,False,3.64,249.0,56.0,3
+334,Kokushikan University,Private,Tokyo To,1929-04,17,29,True,False,3.75,503.0,44.7,5
+335,Komazawa University,Private,Tokyo To,1882-10,16,32,True,False,3.73,990.0,52.1,4
+336,Jissen Women’s University,Private,Tokyo To,1925-01,6,15,True,False,3.92,375.0,45.8,5
+337,Shibaura Institute of Technology,Private,Tokyo To,1927-07,5,28,True,False,3.94,376.0,53.5,4
+338,Juntendo University,Private,Tokyo To,1944-04,10,15,True,False,4.07,276.0,53.9,4
+339,Sophia University,Private,Tokyo To,1913-03,20,57,True,False,4.2,1120.0,62.3,2
+340,Showa University,Private,Tokyo To,1928-04,9,15,True,False,3.91,216.0,53.9,4
+341,Showa Women’s University,Private,Tokyo To,1946-04,9,25,True,False,3.94,549.0,51.6,4
+342,Showa Pharmaceutical University,Private,Tokyo To,1930-11,2,3,True,False,3.55,74.0,50.3,4
+343,Joshibi University of Art And Design,Private,Tokyo To,1900-10,2,6,True,False,4.0,154.0,41.0,6
+344,Sugino Fashion College,Private,Tokyo To,1964-04,3,4,True,False,3.51,45.0,35.5,7
+345,Seijo University,Private,Tokyo To,1926-03,8,21,True,False,3.81,440.0,54.5,3
+346,"University of The Sacred Heart, Tokyo",Private,Tokyo To,1916-04,2,15,True,False,4.33,148.0,45.0,5
+347,Seisen University,Private,Tokyo To,1950-02,3,10,True,False,4.15,186.0,42.2,6
+348,St.Luke’s International University,Private,Tokyo To,1920-10,3,4,True,False,4.41,42.0,59.7,2
+349,Senshu University,Private,Tokyo To,1880-09,17,37,True,False,3.74,1185.0,50.2,4
+350,Taisho University,Private,Tokyo To,1926-04,11,22,True,False,3.8,311.0,41.3,6
+351,Daito Bunka University,Private,Tokyo To,1923-09,17,37,True,False,3.69,571.0,43.8,6
+352,Takachiho University,Private,Tokyo To,1912-05,4,4,True,False,3.56,85.0,38.0,7
+353,Takushoku University,Private,Tokyo To,1900-06,12,25,True,False,3.64,423.0,41.2,6
+354,Tama Art University,Private,Tokyo To,1935-10,2,17,True,False,3.95,196.0,45.1,5
+355,Chuo University,Private,Tokyo To,1885-07,17,61,True,True,3.91,2298.0,57.9,3
+356,Tokai University,Private,Kanagawa Ken,1946-05,44,120,True,False,3.8,1430.0,43.4,6
+357,Tokyo Medical University,Private,Tokyo To,1916-09,2,10,True,False,3.9,52.0,61.0,2
+358,Tokyo Kasei University,Private,Tokyo To,1922-12,6,20,True,False,3.95,598.0,43.6,6
+359,Tokyo Kasei Gakuin University,Private,Tokyo To,1963-01,3,8,True,False,3.57,98.0,36.3,7
+360,Tokyo Dental College,Private,Tokyo To,1890-01,2,2,True,False,4.16,53.0,55.5,3
+361,The Jikei University School of Medicine,Private,Tokyo To,1921-10,2,4,True,False,4.28,50.0,60.0,2
+362,Tokyo Woman's Christian University,Private,Tokyo To,1918-03,3,10,True,False,3.93,442.0,52.3,4
+363,Tokyo Women’s Medical University,Private,Tokyo To,1900-12,4,10,True,False,4.29,50.0,53.0,4
+364,Tokyo Denki University,Private,Tokyo To,1939-04,11,36,True,False,3.68,376.0,49.3,4
+365,Tokyo University of Agriculture,Private,Tokyo To,1891-03,12,51,True,False,3.94,814.0,47.3,5
+366,Tokyo University of Pharmacy And Life Sciences,Private,Tokyo To,1880-11,4,9,True,False,3.82,212.0,48.2,5
+367,Tokyo University of Science,Private,Tokyo To,1881-06,17,51,True,False,3.85,1128.0,57.2,3
+368,Toho University,Private,Tokyo To,1925-03,9,20,True,False,3.98,267.0,48.1,5
+369,Toyo University,Private,Tokyo To,1903-10,38,81,True,True,3.83,1870.0,51.2,4
+370,Tokyo College of Music,Private,Tokyo To,1954-02,2,6,True,False,4.14,145.0,35.0,7
+372,Nihon University,Private,Tokyo To,1889-10,40,149,True,True,3.71,3665.0,47.3,5
+373,Nippon Medical School,Private,Tokyo To,1904-04,2,2,True,False,3.99,31.0,70.0,1
+374,The Nippon Dental University,Private,Tokyo To,1907-06,4,4,True,False,3.16,35.0,46.3,5
+375,Japan College of Social Work,Private,Tokyo To,1946-11,3,4,True,False,3.86,85.0,40.0,6
+376,Japan Women’s University,Private,Tokyo To,1900-12,10,35,True,True,4.09,748.0,53.3,4
+377,Japan Women’s College of Physical Education,Private,Tokyo To,1922-04,2,7,True,False,4.0,213.0,35.5,7
+378,Nippon Sport Science University,Private,Tokyo To,1941-03,9,16,True,False,4.03,382.0,40.0,6
+379,Japan Lutheran College,Private,Tokyo To,1909-09,2,3,True,False,3.97,35.0,35.7,7
+380,Bunka Gakuen University,Private,Tokyo To,1964-01,5,11,True,False,4.08,143.0,41.2,6
+381,Hosei University,Private,Tokyo To,1903-08,35,74,True,True,3.89,2242.0,58.7,3
+382,Hoshi University,Private,Tokyo To,1941-04,2,4,True,False,3.9,145.0,56.0,3
+383,Musashi University,Private,Tokyo To,1921-12,6,13,True,False,3.96,341.0,56.0,3
+384,Tokyo City University,Private,Tokyo To,1929-09,9,25,True,False,3.88,396.0,50.1,4
+385,Musashino Academia Musicae,Private,Tokyo To,1929-02,4,12,True,False,3.86,96.0,35.0,7
+386,Meiji University,Private,Tokyo To,1903-08,26,65,True,False,4.01,2765.0,60.8,2
+387,Meiji Gakuin University,Private,Tokyo To,1903-11,13,28,True,False,3.9,976.0,54.2,3
+388,Meiji Pharmaceutical University,Private,Tokyo To,1902-03,2,4,True,False,3.93,175.0,50.6,4
+389,Rikkyo University,Private,Tokyo To,1949-02,24,54,True,False,4.09,1811.0,60.6,2
+390,Rissho University,Private,Tokyo To,1904-04,16,33,True,False,3.76,602.0,42.3,6
+391,Waseda University,Private,Tokyo To,1902-10,35,94,True,True,4.14,4280.0,65.7,1
+393,Gakushuin Women’s College,Private,Tokyo To,1998-04,2,4,True,False,4.19,159.0,45.0,5
+395,Tokyo Professional University of Health Sciences,Private,Tokyo To,2020-04,1,2,False,False,3.806595460614152,249.7570093457944,36.5,7
+396,Professional University of Information and Management for Innovation,Private,Tokyo To,2020-04,1,1,False,False,3.5,2.0,35.0,7
+400,Komazawa Women’s University,Private,Tokyo To,1992-12,5,12,True,False,3.74,171.0,41.8,6
+401,Asia University,Private,Tokyo To,1955-03,9,11,True,False,3.75,392.0,40.1,6
+402,J.F.Oberlin University,Private,Tokyo To,1966-01,9,7,True,False,3.8,521.0,39.4,6
+403,Kunitachi College of Music,Private,Tokyo To,1926-04,3,12,True,False,4.09,179.0,39.0,7
+404,International Christian University,Private,Tokyo To,1953-03,2,6,True,False,4.43,206.0,68.0,1
+405,Shirayuri University,Private,Tokyo To,1946-03,3,12,True,False,3.92,194.0,39.7,6
+406,Seikei University,Private,Tokyo To,1925-02,9,19,True,False,3.95,559.0,53.3,4
+407,Tamagawa University,Private,Tokyo To,1945-03,16,33,True,True,3.78,495.0,46.0,5
+408,Tsuda University,Private,Tokyo To,1900-09,5,10,True,False,4.11,384.0,50.0,4
+409,Teikyo University,Private,Tokyo To,1966-01,24,57,True,True,3.71,1133.0,42.9,6
+410,Tokyo Keizai University,Private,Tokyo To,1900-07,8,11,True,False,3.87,339.0,48.7,5
+411,Tokyo Women’s College of Physical Education,Private,Tokyo To,1962-01,1,1,False,False,3.8,112.0,35.5,7
+413,Tokyo Zokei University,Private,Tokyo To,1966-01,2,3,True,False,3.86,82.0,40.8,6
+414,Toho Gakuen School of Music,Private,Tokyo To,1955-02,2,2,True,False,4.35,87.0,35.0,7
+416,Musashino University,Private,Tokyo To,1965-01,34,46,True,True,3.7,512.0,47.4,5
+417,Musashino Art University,Private,Tokyo To,1929-10,6,21,True,True,4.01,230.0,47.7,5
+418,Meisei University,Private,Tokyo To,1964-03,16,25,True,True,3.75,455.0,46.2,5
+419,WAKO UNIVERSITY,Private,Tokyo To,1966-01,4,9,True,False,3.59,145.0,36.4,7
+420,Kyorin University,Private,Tokyo To,1970-04,7,28,True,False,3.77,336.0,45.2,5
+421,Soka University,Private,Tokyo To,1971-01,23,33,True,True,4.35,556.0,40.5,6
+422,Nihon Bunka University,Private,Tokyo To,1978-01,1,1,False,False,3.22,26.0,38.0,7
+423,Tokyo University of Technology,Private,Tokyo To,1985-12,10,20,True,False,3.56,358.0,43.1,6
+424,Japanese Red Cross College of Nursing,Private,Tokyo To,1986-02,3,4,True,False,4.38,64.0,51.8,4
+425,Keisen University,Private,Tokyo To,1987-12,4,7,True,False,3.79,91.0,38.4,7
+426,Tama University,Private,Tokyo To,1989-04,3,4,True,False,3.34,78.0,35.3,7
+427,Tokyo Junshin University,Private,Tokyo To,1995-12,2,2,False,False,3.58,18.0,36.0,7
+428,Kaetsu University,Private,Tokyo To,2000-12,3,3,True,False,3.2,31.0,37.7,7
+429,Tokyo Fuji University,Private,Tokyo To,2001-12,2,3,True,False,3.48,36.0,38.0,7
+431,Digital Hollywood University,Private,Tokyo To,2004-02,2,2,True,False,4.25,84.0,45.3,5
+432,Shiraume Gakuen University,Private,Tokyo To,2004-11,2,4,True,False,3.95,103.0,40.7,6
+433,Tokyo Healthcare University,Private,Tokyo To,2005-04,12,6,True,False,3.65,159.0,42.4,6
+434,Tokyo Seiei College,Private,Tokyo To,2004-11,1,2,False,False,3.79,44.0,36.3,7
+439,Tokyo Future University,Private,Tokyo To,2006-11,4,4,False,True,3.87,107.0,38.3,7
+442,Hosen College of Childhood Education,Private,Tokyo To,2009-10,1,1,False,False,3.63,25.0,37.8,7
+443,Tokyo Ariake University of Medical And Health Sciences,Private,Tokyo To,2008-10,4,5,True,False,3.71,39.0,36.8,7
+444,Tokyo Polytechnic University,Private,Tokyo To,1923-03,5,20,True,False,3.65,176.0,42.5,6
+445,Sanno University,Private,Tokyo To,1978-12,4,5,True,True,3.83,228.0,46.8,5
+446,Yamazaki University of Animal Health Technology,Private,Tokyo To,2010-04,2,3,True,False,3.57,52.0,40.0,6
+447,University of Tokyo Health Sciences,Private,Tokyo To,2011-10,1,2,False,False,3.39,33.0,37.8,7
+450,Teikyo University of Science,Private,Tokyo To,1989-12,5,20,True,False,3.58,232.0,41.5,6
+452,Kanagawa University,Private,Kanagawa Ken,1929-03,17,32,True,False,3.68,1017.0,46.1,5
+453,Kanto Gakuin University,Private,Kanagawa Ken,1884-10,16,28,True,False,3.54,440.0,38.5,7
+454,Tsurumi University,Private,Kanagawa Ken,1963-04,4,10,True,False,3.75,117.0,37.3,7
+455,Ferris University,Private,Kanagawa Ken,1965-01,6,12,True,False,4.06,208.0,35.3,7
+456,Yokohama College of Commerce,Private,Kanagawa Ken,1966-01,1,3,False,False,3.51,49.0,37.9,7
+459,Yokohama University of Pharmacy,Private,Kanagawa Ken,2006-04,2,6,True,False,3.68,95.0,37.8,7
+460,Azabu University,Private,Kanagawa Ken,1934-04,4,8,True,False,3.83,202.0,42.6,6
+461,Kanagawa Dentaluniversity,Private,Kanagawa Ken,1964-01,2,2,True,False,3.11,23.0,35.5,7
+462,Kamakura Women’s University,Private,Kanagawa Ken,1943-01,4,6,True,False,3.9,264.0,41.0,6
+463,Shonan Institute of Technology,Private,Kanagawa Ken,1963-01,2,8,True,False,3.76,82.0,35.5,7
+464,Sagami Women’s University,Private,Kanagawa Ken,1900-09,5,11,True,False,3.76,270.0,36.6,7
+466,St.Marianna University School of Medicine,Private,Kanagawa Ken,1971-01,2,2,True,False,3.76,22.0,63.0,2
+467,Kanagawa Institute of Technology,Private,Kanagawa Ken,1962-12,6,19,True,False,3.59,215.0,36.4,7
+468,Showa University of Music,Private,Kanagawa Ken,1940-04,3,8,True,False,4.06,85.0,35.0,7
+469,Toin University of Yokohama,Private,Kanagawa Ken,1965-04,6,8,True,False,3.71,91.0,35.9,7
+470,Toyo Eiwa University,Private,Kanagawa Ken,1988-12,4,6,True,False,3.78,153.0,35.4,7
+471,Shoin University,Private,Kanagawa Ken,2000-04,5,11,True,False,3.47,32.0,35.3,7
+472,Den-En Chofu University,Private,Kanagawa Ken,2002-04,4,6,True,False,3.64,76.0,35.8,7
+473,Yokohama University of Art & Design,Private,Kanagawa Ken,2009-10,1,1,False,False,3.92,29.0,36.0,7
+474,Japan Institute of The Moving Image,Private,Kanagawa Ken,2010-10,1,1,False,False,3.73,18.0,36.0,7
+475,Yokohama Soei University,Private,Kanagawa Ken,2011-10,3,3,True,False,3.56,38.0,37.0,7
+476,Shonan University of Medical Sciences,Private,Kanagawa Ken,2015-04,4,6,True,False,3.72,34.0,38.6,7
+477,SHONAN KAMAKURA UNIVERSITY OF MEDICAL SCIENCES,Private,Kanagawa Ken,2020-04,2,2,True,False,3.67,3.0,35.0,7
+478,Nagaoka University,Private,Niigata Ken,2000-12,1,1,False,False,3.44,27.0,43.0,6
+479,Niigata University of Health And Welfare,Private,Niigata Ken,2000-12,7,18,True,False,3.89,236.0,38.1,7
+480,Niigata Seiryo University,Private,Niigata Ken,1999-12,4,5,True,False,3.94,110.0,42.8,6
+481,Niigata Institute of Technology,Private,Niigata Ken,1994-12,2,2,True,False,3.62,26.0,35.3,7
+482,Niigata University of Management,Private,Niigata Ken,1993-12,2,3,False,False,3.73,30.0,36.0,7
+483,Niigata University of International And Information Studies,Private,Niigata Ken,1993-12,2,3,False,False,3.69,70.0,45.5,5
+484,Keiwa College,Private,Niigata Ken,1990-12,1,3,False,False,3.45,42.0,35.2,7
+485,Niigata University of Pharmacy and Applied Life Sciences,Private,Niigata Ken,1977-01,4,5,True,False,3.51,72.0,35.7,7
+487,Niigata Sangyo University,Private,Niigata Ken,1987-12,3,4,True,True,3.73,17.0,37.5,7
+489,Niigata University of Rehabilitation,Private,Niigata Ken,2007-01,2,2,True,False,3.18,23.0,35.5,7
+490,Niigata Agro-Food University,Private,Niigata Ken,2017-08,2,2,True,False,2.75,4.0,35.3,7
+491,Kaishi Professional University,Private,Niigata Ken,2020-04,3,3,False,False,4.0,1.0,36.5,7
+492,Nagaoka Sutoku University,Private,Niigata Ken,2019-04,1,1,False,False,3.75,4.0,37.5,7
+493,Takaoka University of Law,Private,Toyama Ken,1988-12,1,1,False,False,3.43,18.0,35.7,7
+494,Toyama University of International Studies,Private,Toyama Ken,1989-12,2,2,False,False,3.7,65.0,36.3,7
+496,Kanazawa Seiryo University,Private,Ishikawa Ken,1967-04,4,6,True,False,3.77,172.0,36.5,7
+497,Kanazawa Institute of Technology,Private,Ishikawa Ken,1965-01,7,23,True,False,3.69,259.0,38.8,7
+498,Kanazawa Medical University,Private,Ishikawa Ken,1972-03,4,4,True,False,3.9,47.0,54.0,4
+499,Hokuriku University,Private,Ishikawa Ken,1975-02,6,8,False,False,3.46,78.0,36.2,7
+500,Kanazawa Gakuin University,Private,Ishikawa Ken,1986-12,13,16,True,False,3.4,128.0,37.9,7
+501,Kinjo University,Private,Ishikawa Ken,2000-04,5,7,True,False,3.84,103.0,37.3,7
+502,Hokurikugakuin University,Private,Ishikawa Ken,2007-12,1,2,False,False,3.81,39.0,37.6,7
+503,Kanazawa Professional University of Food Management,Private,Ishikawa Ken,2021-04,1,1,False,False,3.806595460614152,249.7570093457944,36.0,7
+504,Fukui University of Technology,Private,Fukui Ken,1963-01,4,10,True,False,3.59,57.0,41.6,6
+505,Jin-Ai University,Private,Fukui Ken,2000-12,3,5,True,False,3.85,100.0,37.5,7
+506,Fukui Health Science University,Private,Fukui Ken,2016-08,2,3,True,False,3.56,9.0,37.8,7
+507,Yamanashi Gakuin University,Private,Yamanashi Ken,1962-01,6,7,True,False,3.74,138.0,39.0,7
+508,Minobusan University,Private,Yamanashi Ken,1994-12,1,1,False,False,5.0,1.0,37.0,7
+509,Yamanashi-Eiwa College,Private,Yamanashi Ken,2001-12,2,2,True,False,3.66,46.0,36.0,7
+510,Health Science University,Private,Yamanashi Ken,2002-12,2,4,False,False,3.58,52.0,35.6,7
+511,Matsumoto Dental University,Private,Nagano Ken,1972-01,2,2,True,False,3.1,11.0,38.5,7
+512,Matsumoto University,Private,Nagano Ken,2001-12,5,7,True,False,3.91,120.0,42.7,6
+513,Seisen Jogakuin College,Private,Nagano Ken,2002-12,5,5,True,False,4.1,54.0,36.5,7
+514,Saku University,Private,Nagano Ken,2008-04,4,4,True,False,3.89,26.0,38.0,7
+515,Nagano University of Health And Medicine,Private,Nagano Ken,2015-04,3,3,True,False,3.87,16.0,40.5,6
+516,MATSUMOTO COLLEGE OF NURSING,Private,Nagano Ken,2021-04,1,1,False,False,3.0,2.0,38.0,7
+517,Chukyo Gakuin University,Private,Gifu Ken,1992-12,2,2,False,False,3.64,44.0,35.2,7
+518,Gifu Kyoritsu University,Private,Gifu Ken,1967-01,5,7,True,False,3.46,55.0,35.6,7
+519,Gifu Women’s University,Private,Gifu Ken,1968-03,5,9,True,True,3.77,94.0,35.5,7
+520,Asahi University,Private,Gifu Ken,1971-02,8,9,True,False,3.76,120.0,40.1,6
+521,Gifu Shotoku Gakuen University,Private,Gifu Ken,1972-04,6,7,True,False,4.09,241.0,42.6,6
+522,Tokai Gakuin University,Private,Gifu Ken,1981-01,3,5,True,False,3.52,83.0,35.3,7
+523,Chubu Gakuin University,Private,Gifu Ken,1996-12,7,8,True,True,3.86,102.0,35.9,7
+524,Gifu University of Medical Science,Private,Gifu Ken,2005-12,5,6,True,False,3.79,91.0,40.5,6
+525,Gifu University of Health Sciences,Private,Gifu Ken,2019-04,3,4,True,False,3.91,7.0,36.0,7
+527,Shizuoka University of Welfare,Private,Shizuoka Ken,2003-11,2,4,False,False,3.89,61.0,35.5,7
+528,Hamamatsu Gakuin University,Private,Shizuoka Ken,2003-11,1,2,False,False,3.93,48.0,35.5,7
+529,Shizuoka Eiwa Gakuin University,Private,Shizuoka Ken,2001-12,1,2,False,False,3.54,54.0,35.7,7
+530,Tokoha University,Private,Shizuoka Ken,1980-01,14,25,True,False,3.77,348.0,38.8,7
+531,Shizuoka Institute of Science And Technology,Private,Shizuoka Ken,1990-12,3,9,True,False,3.59,52.0,40.6,6
+532,Seirei Christopher University,Private,Shizuoka Ken,1992-04,7,11,True,False,4.0,104.0,38.8,7
+533,Shizuoka Sangyo University,Private,Shizuoka Ken,1994-04,3,6,False,False,3.64,73.0,35.5,7
+534,Aichi University of Technology,Private,Aichi Ken,1999-12,2,4,True,False,3.5,28.0,36.0,7
+535,Nagoya Sangyo University,Private,Aichi Ken,2000-04,2,3,True,False,3.63,15.0,36.3,7
+536,University of Human Environments,Private,Aichi Ken,1999-12,8,10,True,False,3.58,58.0,43.6,6
+537,Nagoya Bunri University,Private,Aichi Ken,1999-04,2,3,False,False,3.68,86.0,38.9,7
+538,Aichi Mizuho College,Private,Aichi Ken,1992-12,2,2,True,False,3.46,32.0,38.7,7
+539,Aichi Gakuin University,Private,Aichi Ken,1953-04,20,30,True,False,3.83,610.0,44.0,6
+540,Aichi Institute of Technology,Private,Aichi Ken,1954-02,5,15,True,False,3.67,228.0,45.4,5
+541,Kinjogakuin University,Private,Aichi Ken,1927-03,9,20,True,False,4.02,534.0,39.1,6
+542,Sugiyama Jogakuen University,Private,Aichi Ken,1929-11,11,17,True,False,3.98,613.0,41.8,6
+543,Daido University,Private,Aichi Ken,1964-01,4,13,True,False,3.71,129.0,41.5,6
+544,Chukyo University,Private,Aichi Ken,1954-04,21,38,True,False,3.81,944.0,51.6,4
+545,Doho University,Private,Aichi Ken,1921-06,5,6,True,False,3.62,71.0,36.8,7
+546,Nagoya Gakuin University,Private,Aichi Ken,1964-01,11,16,True,False,3.6,249.0,42.4,6
+547,Nagoya University of Commerce & Business,Private,Aichi Ken,1953-03,7,11,True,False,3.37,122.0,36.5,7
+548,Nagoya Women’s University,Private,Aichi Ken,1964-01,5,8,True,False,3.79,253.0,39.5,6
+549,Nanzan University,Private,Aichi Ken,1946-07,16,35,True,False,3.96,955.0,51.6,4
+550,Nihon Fukushi University,Private,Aichi Ken,1953-04,15,18,True,True,3.76,461.0,38.2,7
+551,Meijo University,Private,Aichi Ken,1947-09,20,47,True,False,3.84,996.0,50.8,4
+552,Nagoya College of Music,Private,Aichi Ken,1976-01,2,5,True,False,3.86,70.0,40.0,6
+553,Toyota Technological Institute,Private,Aichi Ken,1981-01,2,4,True,False,3.76,36.0,58.0,3
+554,Nagoya University of Foreign Studies,Private,Aichi Ken,1987-12,6,13,True,False,3.89,384.0,52.8,4
+555,Nagoya Zokei University of Art ; Design,Private,Aichi Ken,1989-12,2,2,True,False,3.65,53.0,42.7,6
+556,Aichi Sangyo University,Private,Aichi Ken,1991-12,4,7,True,True,3.8,36.0,35.6,7
+557,Tokai Gakuen University,Private,Aichi Ken,1994-12,7,7,True,False,3.56,243.0,37.2,7
+558,Toyohashi Sozo University,Private,Aichi Ken,1995-12,4,5,True,False,3.54,37.0,38.6,7
+559,Aichi Toho University,Private,Aichi Ken,2000-12,3,4,False,False,3.54,49.0,35.4,7
+560,Seijoh University,Private,Aichi Ken,2001-12,3,3,True,False,3.75,51.0,38.1,7
+561,Aichi Bunkyo University,Private,Aichi Ken,1997-12,2,2,True,False,3.55,10.0,36.0,7
+562,Ohkagakuen University,Private,Aichi Ken,1997-12,2,3,False,False,4.21,108.0,35.3,7
+563,Aichi University,Private,Aichi Ken,1946-11,14,22,True,False,3.83,781.0,48.4,5
+564,Aichi Gakusen University,Private,Aichi Ken,1966-03,1,4,False,False,3.41,82.0,36.3,7
+565,Shigakkan University,Private,Aichi Ken,1963-01,2,5,True,False,3.58,111.0,39.9,6
+566,Chubu University,Private,Aichi Ken,1964-04,13,50,True,False,3.73,560.0,43.8,6
+567,Fujita Health University,Private,Aichi Ken,1968-05,5,9,True,False,3.73,199.0,51.7,4
+568,Nagoya University of The Arts,Private,Aichi Ken,1970-04,7,9,True,False,3.72,115.0,36.6,7
+569,Aichi Medical University,Private,Aichi Ken,1971-12,4,5,True,False,3.76,63.0,55.2,3
+570,Aichi Shukutoku University,Private,Aichi Ken,1975-01,15,20,True,False,3.84,772.0,44.4,5
+571,Nagoya University of Economics,Private,Aichi Ken,1978-12,7,10,True,False,3.38,81.0,38.3,7
+572,Nagoya University of Arts And Sciences,Private,Aichi Ken,2001-12,8,10,True,False,4.16,291.0,52.5,4
+573,Japanese Red Cross Toyota College of Nursing,Private,Aichi Ken,2003-11,2,3,True,False,3.88,38.0,41.0,6
+574,Shubun University,Private,Aichi Ken,2007-12,3,3,False,False,3.47,35.0,37.4,7
+575,Okazaki Women’s University,Private,Aichi Ken,2012-11,1,1,False,False,4.1,42.0,35.5,7
+576,Ichinomiya Kenshin College,Private,Aichi Ken,2017-04,1,1,False,False,4.0,4.0,42.3,6
+577,Nagoya Ryujo Women's University,Private,Aichi Ken,1898-04,1,1,False,False,4.12,7.0,37.5,7
+579,Yokkaichi University,Private,Mie Ken,1987-12,2,2,False,False,3.65,32.0,36.5,7
+580,Kogakkan University,Private,Mie Ken,1962-02,6,11,True,False,3.9,178.0,41.4,6
+581,Suzuka University of Medical Science,Private,Mie Ken,1990-12,6,14,True,False,3.59,161.0,41.5,6
+582,Suzuka University,Private,Mie Ken,1994-04,4,4,True,False,3.51,21.0,38.0,7
+583,Yokkaichi Nursing And Medical Care University,Private,Mie Ken,2006-11,2,3,True,False,3.76,42.0,42.3,6
+584,Seian University of Art And Design,Private,Shiga Ken,1992-12,1,1,False,False,3.75,35.0,53.0,4
+585,Seisen University,Private,Shiga Ken,2002-12,4,4,True,False,3.39,30.0,35.5,7
+586,Nagahama Institute of Bio-Science And Technology,Private,Shiga Ken,2002-12,2,4,True,False,3.76,55.0,40.3,6
+587,Biwako Seikei Sport College,Private,Shiga Ken,2003-04,2,2,True,False,3.88,57.0,36.0,7
+588,Biwako-Gakuin University,Private,Shiga Ken,2008-10,1,2,False,False,3.63,33.0,37.0,7
+589,Biwako Professional University of Rehabilitation,Private,Shiga Ken,2020-04,1,2,False,False,5.0,1.0,37.8,7
+590,Heian Jogakuin st.Agnes University,Private,Kyoto Fu,1999-12,2,2,False,False,3.85,50.0,35.5,7
+591,Otani University,Private,Kyoto Fu,1923-04,5,18,True,False,3.88,202.0,37.7,7
+592,Kyoto University of Foreign Studies,Private,Kyoto Fu,1959-04,4,14,True,False,3.81,352.0,44.9,5
+593,Kyoto Sangyo University,Private,Kyoto Fu,1965-01,21,40,True,True,3.81,723.0,46.3,5
+594,Kyoto Women’s University,Private,Kyoto Fu,1920-03,10,24,True,False,3.91,787.0,49.0,5
+595,Kyoto    Pharmaceutical  University,Private,Kyoto Fu,1919-03,2,3,True,False,3.97,191.0,53.5,4
+596,Kyoto Koka Women’s University,Private,Kyoto Fu,1944-03,6,9,True,False,3.79,141.0,35.9,7
+597,Shuchiin University,Private,Kyoto Fu,1929-04,1,2,False,False,3.97,8.0,35.0,7
+598,Kyoto Tachibana University,Private,Kyoto Fu,1967-01,15,22,True,True,3.94,338.0,44.7,5
+599,Doshisha University,Private,Kyoto Fu,1904-03,30,69,True,False,4.06,2011.0,59.0,3
+600,Doshisha Women’s College of Liberal Arts,Private,Kyoto Fu,1912-02,12,20,True,False,4.15,729.0,48.2,5
+601,Kyoto Notre Dame University,Private,Kyoto Fu,1961-03,5,9,True,False,3.98,107.0,35.5,7
+602,Hanazono University,Private,Kyoto Fu,1911-09,4,10,True,False,3.83,99.0,35.5,7
+603,Bukkyo University,Private,Kyoto Fu,1912-05,22,42,True,True,3.89,505.0,43.7,6
+604,Ritsumeikan University,Private,Kyoto Fu,1900-05,37,57,True,False,3.9,2452.0,55.4,3
+605,Ryukoku University,Private,Kyoto Fu,1922-05,22,60,True,False,3.85,1280.0,46.4,5
+606,Kyoto University of Advanced Science,Private,Kyoto Fu,1969-04,10,17,True,False,3.51,115.0,37.7,7
+607,Kyoto Seika University,Private,Kyoto Fu,1978-12,11,17,True,False,3.92,157.0,44.6,5
+608,Meiji University of Integrative Medicine,Private,Kyoto Fu,1983-04,5,8,True,False,3.78,28.0,36.3,7
+609,Kyoto University of the Arts,Private,Kyoto Fu,1990-12,3,18,True,True,3.88,187.0,41.4,6
+610,Kyoto Bunkyo University,Private,Kyoto Fu,1995-12,4,4,True,False,3.76,127.0,35.1,7
+611,Kyoto Saga University of Arts,Private,Kyoto Fu,2000-12,2,3,True,False,3.93,39.0,41.0,6
+613,Kyoto College of Medical Science,Private,Kyoto Fu,2006-11,1,1,False,False,3.86,20.0,43.0,6
+614,Kyoto Kacho University,Private,Kyoto Fu,2010-10,1,2,False,False,3.82,48.0,35.1,7
+615,Kyoto Arts And Crafts University,Private,Kyoto Fu,2011-10,3,3,True,False,4.03,14.0,39.3,6
+616,Kyoto College of Nursing,Private,Kyoto Fu,2013-10,2,2,True,False,3.25,27.0,42.0,6
+617,Osaka University of Economics,Private,Osaka Fu,1935-09,9,11,True,False,3.78,430.0,43.8,6
+618,Osaka Institute of Technology,Private,Osaka Fu,1940-03,8,26,True,False,3.81,290.0,45.1,5
+619,Osaka Dental University,Private,Osaka Fu,1911-12,4,6,True,False,3.61,28.0,45.0,5
+620,Soai University,Private,Osaka Fu,1958-01,5,8,True,False,3.79,91.0,35.5,7
+621,Momoyama Gakuin University,Private,Osaka Fu,1959-01,10,12,True,False,3.58,305.0,41.5,6
+622,Setsunan University,Private,Osaka Fu,1975-01,16,29,True,False,3.64,365.0,43.4,6
+623,Momoyama Gakuin University of Education,Private,Osaka Fu,1995-12,1,1,False,False,3.66,27.0,40.6,6
+624,Osaka Medical and Pharmaceutical University,Private,Osaka Fu,1904-05,6,9,True,False,4.11,9.0,57.0,3
+625,Osaka College of Music,Private,Osaka Fu,1958-01,3,7,True,False,4.0,117.0,35.0,7
+626,Osaka Gakuin University,Private,Osaka Fu,1963-04,13,14,True,True,3.58,194.0,39.7,6
+627,Osaka University of Arts,Private,Osaka Fu,1964-01,3,25,True,True,3.79,415.0,43.3,6
+628,Osaka Sangyo University,Private,Osaka Fu,1965-04,11,27,True,False,3.46,247.0,38.8,7
+629,Osaka Shoin Women’s University,Private,Osaka Fu,1925-12,6,13,True,False,3.86,195.0,36.8,7
+630,Osaka University of Commerce,Private,Osaka Fu,1928-04,4,7,True,False,3.56,157.0,41.3,6
+631,Osaka University of Health And Sport Sciences,Private,Osaka Fu,1965-01,3,4,True,False,4.13,142.0,40.8,6
+632,Osaka Electro-Communication University,Private,Osaka Fu,1961-03,7,17,True,False,3.78,201.0,43.7,6
+633,Osaka Ohtani University,Private,Osaka Fu,1966-01,7,10,True,False,3.78,201.0,41.2,6
+634,Otemon Gakuin University,Private,Osaka Fu,1966-01,11,14,True,False,3.56,381.0,45.8,5
+635,Kansai University,Private,Osaka Fu,1904-01,29,44,True,False,3.95,2661.0,55.6,3
+636,Kansai Medical University,Private,Osaka Fu,1928-06,5,6,True,False,4.07,37.0,52.5,4
+637,Kansai Gaidai University,Private,Osaka Fu,1966-01,5,7,True,False,3.71,1072.0,50.0,4
+638,Kindai University,Private,Osaka Fu,1925-03,28,73,True,True,3.86,2246.0,49.6,4
+639,Shitennoji University,Private,Osaka Fu,1967-01,6,9,True,False,3.88,251.0,42.0,6
+640,Tezukayamagakuin University,Private,Osaka Fu,1966-01,3,7,True,False,3.85,103.0,42.8,6
+641,Baika Women’s University,Private,Osaka Fu,1922-03,7,14,True,False,3.83,169.0,39.4,6
+642,Hannan University,Private,Osaka Fu,1965-01,6,6,True,False,3.76,273.0,39.5,6
+643,Osaka University of Economics and Law,Private,Osaka Fu,1971-01,5,6,True,False,3.53,124.0,42.0,6
+644,Osaka International University,Private,Osaka Fu,1987-12,5,9,True,False,3.78,139.0,39.4,6
+645,Kansai University of Welfare Sciences,Private,Osaka Fu,1996-12,6,8,True,False,3.79,194.0,35.8,7
+646,Taisei Gakuin University,Private,Osaka Fu,1997-12,3,5,False,False,3.32,44.0,36.6,7
+647,Tokiwakai Gakuen University,Private,Osaka Fu,1998-12,1,1,False,False,3.82,33.0,35.0,7
+648,Osaka University of Tourism,Private,Osaka Fu,2000-04,3,3,False,False,3.39,20.0,35.0,7
+649,Osaka University of Human Sciences,Private,Osaka Fu,2000-12,4,10,True,False,3.6,78.0,35.4,7
+650,Hagoromo University of International Studies,Private,Osaka Fu,2001-12,2,4,False,False,3.51,47.0,35.3,7
+651,Osaka Seikei University,Private,Osaka Fu,2003-04,5,7,True,False,3.71,136.0,40.5,6
+652,Kansai University of Health Sciences,Private,Osaka Fu,2003-04,3,7,True,False,3.92,83.0,39.8,6
+653,Senri Kinran University,Private,Osaka Fu,2002-12,3,4,True,False,3.8,86.0,38.3,7
+654,Higashiosaka College,Private,Osaka Fu,2002-12,1,2,False,False,3.83,86.0,35.5,7
+655,Osaka Jogakuin University,Private,Osaka Fu,2003-11,2,2,True,False,3.91,57.0,36.0,7
+656,Aino University,Private,Osaka Fu,2004-04,2,5,True,False,3.53,84.0,40.3,6
+657,Osaka Aoyama University,Private,Osaka Fu,2004-11,2,3,False,False,3.73,76.0,39.3,6
+658,Shijonawate Gakuen University,Private,Osaka Fu,2004-11,2,2,False,False,3.9,26.0,38.0,7
+660,Osaka University of Comprehensive Children Education,Private,Osaka Fu,1942-12,2,3,True,False,4.06,58.0,40.0,6
+661,Morinomiya University of Medical Sciences,Private,Osaka Fu,2006-11,5,11,True,False,3.9,76.0,44.3,5
+662,Osaka Health Science University,Private,Osaka Fu,2008-10,3,3,True,False,4.01,44.0,38.0,7
+663,Butsuryo College of Osaka,Private,Osaka Fu,2010-10,1,1,False,False,3.51,20.0,38.0,7
+664,Jikei University of Health Care Sciences,Private,Osaka Fu,2010-10,2,2,True,False,4.0,2.0,36.3,7
+665,Osaka Yukioka College of Health Science,Private,Osaka Fu,2011-10,1,1,False,False,3.41,7.0,39.0,7
+666,Yamato University,Private,Osaka Fu,2013-10,5,7,False,False,3.7,134.0,52.1,4
+667,Takarazuka University,Private,Osaka Fu,1986-12,4,4,True,False,3.55,50.0,38.3,7
+669,Konan University,Private,Hyogo Ken,1923-01,13,27,True,False,3.88,673.0,48.6,5
+670,Konan Women’s University,Private,Hyogo Ken,1964-01,7,15,True,False,3.98,393.0,42.7,6
+671,Kobe Kaisei College,Private,Hyogo Ken,1965-01,1,2,False,False,3.87,35.0,36.0,7
+672,Kobe Gakuin University,Private,Hyogo Ken,1966-01,18,26,True,False,3.6,603.0,39.5,6
+673,Kobe Women’s University,Private,Hyogo Ken,1966-03,10,20,True,False,3.84,364.0,43.6,6
+674,Kobe Pharmaceutical University,Private,Hyogo Ken,1932-03,2,3,True,False,3.68,124.0,48.3,5
+675,Kobe Shoin Women’s University,Private,Hyogo Ken,1947-03,4,14,True,False,3.86,166.0,39.3,6
+677,Kobe International University,Private,Hyogo Ken,1968-02,3,4,False,False,3.66,88.0,35.2,7
+678,Hyogo University,Private,Hyogo Ken,1994-12,7,9,True,False,3.68,94.0,38.4,7
+679,Kobe Tokiwa University,Private,Hyogo Ken,2007-12,2,5,False,False,3.8,116.0,39.5,6
+680,Takarazuka University of Medical and Health Care,Private,Hyogo Ken,2010-10,4,6,False,False,3.7,27.0,36.3,7
+681,Ashiya University,Private,Hyogo Ken,1964-01,4,7,True,False,3.67,57.0,35.0,7
+682,Otemae University,Private,Hyogo Ken,1966-01,7,7,True,True,3.63,230.0,39.1,6
+683,Kwansei Gakuin University,Private,Hyogo Ken,1908-09,29,63,True,False,4.0,1990.0,54.2,3
+684,Koshien University,Private,Hyogo Ken,1967-01,4,5,True,False,3.55,57.0,37.0,7
+685,Kobe College,Private,Hyogo Ken,1909-10,6,9,True,False,4.23,296.0,41.0,6
+686,Sonoda Women’s University,Private,Hyogo Ken,1966-01,3,5,False,False,3.59,131.0,37.0,7
+687,Mukogawa Women’s University,Private,Hyogo Ken,1949-04,19,33,True,False,4.01,969.0,45.8,5
+688,Hyogo Medical University,Private,Hyogo Ken,1971-11,8,10,True,False,3.94,34.0,47.3,5
+689,Himeji Dokkyo University,Private,Hyogo Ken,1986-12,7,12,True,False,3.71,107.0,35.8,7
+690,University of Marketing And Distribution Sciences,Private,Hyogo Ken,1987-12,4,8,True,False,3.78,98.0,39.6,6
+691,Kobe Design University,Private,Hyogo Ken,1988-12,4,12,True,False,3.78,87.0,38.1,7
+692,Kansai University of Social Welfare,Private,Hyogo Ken,1996-12,6,7,True,False,3.74,53.0,42.4,6
+693,Kansai University of International Studies,Private,Hyogo Ken,1997-12,10,12,True,False,3.57,141.0,35.9,7
+694,Kobe University of Welfare,Private,Hyogo Ken,1999-12,1,3,False,False,3.67,27.0,35.3,7
+696,Kansai University of Nursing And Health Sciences,Private,Hyogo Ken,2005-12,2,2,True,False,3.9,23.0,40.0,6
+698,Himeji University,Private,Hyogo Ken,2006-11,4,4,True,True,3.72,65.0,37.5,7
+699,Tezukayama University,Private,Nara Ken,1964-01,8,9,True,False,3.7,210.0,40.8,6
+700,Tenri University,Private,Nara Ken,1925-02,8,12,True,False,4.17,173.0,39.1,6
+701,Nara University,Private,Nara Ken,1969-03,5,11,True,True,3.86,177.0,39.0,7
+702,Naragakuen University,Private,Nara Ken,1983-12,3,4,True,False,3.76,41.0,38.4,7
+703,Kio University,Private,Nara Ken,2002-12,6,9,True,False,4.04,226.0,46.2,5
+705,Koyasan University,Private,Wakayama Ken,1926-04,3,6,True,False,4.33,5.0,35.5,7
+706,Wakayama Shin-ai University,Private,Wakayama Ken,2019-04,1,1,False,False,3.79,14.0,37.3,7
+707,Wakayama Professional University of Rehabilitation,Private,Wakayama Ken,2021-04,1,1,False,False,3.806595460614152,249.7570093457944,37.8,7
+708,Tottori College of Nursing,Private,Tottori Ken,2015-04,2,2,True,False,4.23,11.0,39.5,6
+709,Kibi International University,Private,Okayama Ken,1989-12,15,22,True,True,3.67,55.0,37.1,7
+710,Okayama Shoka University,Private,Okayama Ken,1955-03,6,7,True,False,3.71,59.0,37.1,7
+711,Okayama University of Science,Private,Okayama Ken,1964-01,16,47,True,False,3.69,320.0,38.9,7
+712,Kurashiki Sakuyo University,Private,Okayama Ken,1966-04,4,5,True,False,3.84,120.0,36.4,7
+713,Notre Dame Seishin University,Private,Okayama Ken,1944-02,4,13,True,False,4.08,261.0,49.5,4
+714,Kawasaki Medical School,Private,Okayama Ken,1970-03,2,2,True,False,3.57,18.0,60.0,2
+715,Shujitsu University,Private,Okayama Ken,1979-02,7,10,True,False,3.96,196.0,41.8,6
+716,Kawasaki University of Medical Welfare,Private,Okayama Ken,1990-12,8,31,True,False,3.79,285.0,38.5,7
+717,Sanyo Gakuen University,Private,Okayama Ken,1994-04,5,6,True,False,3.57,41.0,38.0,7
+718,Kurashiki University of Science And The Arts,Private,Okayama Ken,1994-12,9,14,True,True,3.63,78.0,36.7,7
+719,Okayama Gakuin University,Private,Okayama Ken,2001-12,1,1,False,False,3.43,14.0,35.0,7
+720,Chugokugakuen University,Private,Okayama Ken,2001-12,5,5,True,False,3.76,51.0,35.5,7
+721,International Pacific University,Private,Okayama Ken,2006-11,5,7,False,True,3.75,79.0,36.0,7
+722,Okayama Healthcare Professional University,Private,Okayama Ken,2020-04,1,2,False,False,2.0,1.0,35.5,7
+723,Mimasaka University,Private,Okayama Ken,1967-02,3,5,True,False,4.09,65.0,41.5,6
+724,Elisabeth University of Music,Private,Hiroshima Ken,1952-03,2,7,True,False,3.54,29.0,36.0,7
+725,Hiroshima University of Economics,Private,Hiroshima Ken,1967-01,4,6,True,False,3.74,100.0,38.6,7
+726,Hiroshima Institute of Technology,Private,Hiroshima Ken,1963-04,5,20,True,False,3.69,149.0,41.0,6
+727,Hiroshima Shudo University,Private,Hiroshima Ken,1960-01,11,23,True,False,3.89,413.0,42.6,6
+728,Hiroshima Jogakuin University,Private,Hiroshima Ken,1932-02,4,9,True,False,3.9,106.0,36.8,7
+730,Hiroshima Bunkyo University,Private,Hiroshima Ken,1948-03,3,6,True,False,4.08,106.0,39.4,6
+731,Yasuda Women’s University,Private,Hiroshima Ken,1966-01,11,20,True,False,4.28,472.0,42.7,6
+732,Fukuyama University,Private,Hiroshima Ken,1975-01,9,25,True,False,3.76,167.0,37.7,7
+733,Hijiyama University,Private,Hiroshima Ken,1993-12,4,8,True,False,3.73,94.0,36.9,7
+734,Fukuyama Heisei University,Private,Hiroshima Ken,1993-12,7,9,True,False,3.7,68.0,36.9,7
+735,Hiroshima Bunka Gakuen University,Private,Hiroshima Ken,1994-12,7,8,True,False,3.52,91.0,35.6,7
+736,Hiroshima InternationalUniversity,Private,Hiroshima Ken,1997-12,16,21,True,False,3.61,265.0,43.3,6
+737,Japanese Red Cross Hiroshima College of Nursing,Private,Hiroshima Ken,1999-12,2,3,True,False,3.9,42.0,42.0,6
+738,Hiroshima Cosmopolitan University,Private,Hiroshima Ken,2008-10,4,5,True,False,3.41,37.0,35.9,7
+739,Baiko Gakuin University,Private,Yamaguchi Ken,1967-01,3,4,True,False,3.34,55.0,36.5,7
+740,The University of East Asia,Private,Yamaguchi Ken,1974-02,6,14,True,True,3.86,32.0,35.5,7
+741,Shiseikan University,Private,Yamaguchi Ken,1998-12,1,1,False,False,3.47,4.0,38.5,7
+742,Ube Frontier University,Private,Yamaguchi Ken,2001-12,4,4,True,False,3.84,21.0,35.3,7
+743,Yamaguchi Gakugei University,Private,Yamaguchi Ken,2006-11,2,2,True,False,4.01,19.0,38.5,7
+744,Shikoku University,Private,Tokushima Ken,1966-01,8,14,True,False,3.78,144.0,36.7,7
+745,Tokushima Bunri University,Private,Tokushima Ken,1966-01,17,37,True,False,3.74,229.0,35.9,7
+746,Shikoku Gakuin University,Private,Kagawa Ken,1950-03,6,6,True,False,3.74,66.0,35.5,7
+747,Takamatsu University,Private,Kagawa Ken,1995-12,4,4,True,False,3.84,51.0,38.0,7
+748,Matsuyama University,Private,Ehime Ken,1923-02,11,12,True,False,3.7,456.0,38.5,7
+749,St.Catherine University,Private,Ehime Ken,1987-12,2,5,True,False,3.97,39.0,35.3,7
+750,Matsuyama Shinonome College,Private,Ehime Ken,1991-12,1,1,False,False,3.97,62.0,35.5,7
+751,Kochi Professional University of Rehabilitation,Private,Kochi Ken,2019-04,1,1,False,False,4.0,1.0,35.5,7
+752,Kochi Gakuen University,Private,Kochi Ken,2020-04,1,2,False,False,4.0,3.0,35.5,7
+753,Kyushu Kyoritsu University,Private,Fukuoka Ken,1965-01,4,5,True,False,3.7,82.0,36.2,7
+754,Kyushu Women’s University,Private,Fukuoka Ken,1962-04,2,3,False,False,3.64,113.0,35.5,7
+755,Kyushu International University,Private,Fukuoka Ken,1947-03,4,5,True,False,3.56,70.0,35.5,7
+756,Fukuoka Dental College,Private,Fukuoka Ken,1972-07,2,2,True,False,3.44,18.0,36.5,7
+757,Kyushu Sangyo University,Private,Fukuoka Ken,1960-01,20,41,True,False,3.86,407.0,42.8,6
+758,Kurume University,Private,Fukuoka Ken,1928-02,15,34,True,False,3.83,334.0,41.5,6
+759,Seinan Gakuin University,Private,Fukuoka Ken,1921-02,19,26,True,False,4.02,687.0,51.7,4
+760,Daiichi University of Pharmacy,Private,Fukuoka Ken,1960-01,3,5,True,False,3.39,44.0,35.5,7
+761,Nakamura Gakuen University,Private,Fukuoka Ken,1965-01,6,7,True,False,4.04,318.0,43.4,6
+762,Nishinippon Institute of Technology,Private,Fukuoka Ken,1967-01,3,4,True,False,3.87,40.0,35.1,7
+763,Fukuoka University,Private,Fukuoka Ken,1934-04,21,65,True,False,3.98,1298.0,47.6,5
+764,Fukuoka Institute of Technology,Private,Fukuoka Ken,1963-04,5,20,True,False,3.87,170.0,43.0,6
+765,Japan University of Economics,Private,Fukuoka Ken,1968-03,3,7,True,False,3.7,57.0,35.5,7
+766,Kurume Institute of Technology,Private,Fukuoka Ken,1966-04,2,8,True,False,3.68,39.0,36.8,7
+767,"University of Occupational and Environmental Health, Japan",Private,Fukuoka Ken,1977-12,3,6,True,False,3.76,71.0,50.3,4
+768,Chikushi Jogakuen University,Private,Fukuoka Ken,1987-12,4,6,True,False,3.97,220.0,35.9,7
+769,Fukuoka Jo Gakuin University,Private,Fukuoka Ken,1989-12,4,10,True,False,3.92,174.0,36.9,7
+770,Seinan Jo Gakuin University,Private,Fukuoka Ken,1993-12,3,6,False,False,3.78,127.0,36.7,7
+771,Kyushu Institute of Information Sciences University,Private,Fukuoka Ken,1997-12,3,4,True,False,3.71,12.0,36.5,7
+772,Kyushu Nutrition Welfare University,Private,Fukuoka Ken,2000-12,3,4,True,False,3.9,51.0,36.5,7
+773,Japanese Red Cross Kyushu International College of Nursing,Private,Fukuoka Ken,2000-12,2,3,True,False,3.88,33.0,38.0,7
+774,St.Mary’s College,Private,Fukuoka Ken,2006-04,3,3,True,False,3.74,35.0,40.5,6
+776,Fukuoka Jo Gakuin Nursing University,Private,Fukuoka Ken,2007-12,1,1,False,False,4.52,34.0,40.5,6
+778,Junshin Gakuen University,Private,Fukuoka Ken,2010-10,2,6,True,False,3.45,49.0,39.6,6
+779,Fukuoka Nursing College,Private,Fukuoka Ken,2016-08,2,2,True,False,3.0,5.0,38.5,7
+780,Fukuoka International University of Health and Welfare,Private,Fukuoka Ken,2018-08,3,5,False,False,3.74,24.0,40.9,6
+781,Nishikyushu University,Private,Saga Ken,1968-02,6,13,True,False,3.83,119.0,35.5,7
+782,Nagasaki Institute of Applied Science,Private,Nagasaki Ken,1945-03,3,7,True,False,3.65,34.0,35.6,7
+783,Kwassui Women’s University,Private,Nagasaki Ken,1981-01,5,8,True,False,3.76,118.0,35.6,7
+784,Nagasaki Junshin Catholic University,Private,Nagasaki Ken,1993-12,2,6,True,False,3.92,109.0,36.8,7
+785,Nagasaki International University,Private,Nagasaki Ken,1999-12,6,9,True,False,3.95,110.0,36.6,7
+786,Nagasaki University of Foreign Studies,Private,Nagasaki Ken,2000-12,1,2,False,False,3.76,55.0,36.3,7
+787,Nagasaki Wesleyan University,Private,Nagasaki Ken,2001-12,1,3,False,False,3.71,20.0,35.5,7
+788,Sojo University,Private,Kumamoto Ken,1965-01,9,25,True,False,3.85,166.0,42.5,6
+789,Kumamoto Gakuen University,Private,Kumamoto Ken,1954-02,10,17,True,False,3.8,290.0,39.4,6
+790,Shokei University,Private,Kumamoto Ken,1975-01,2,2,False,False,3.51,41.0,35.8,7
+791,Kyushu Lutheran College,Private,Kumamoto Ken,1996-12,2,3,True,False,4.28,44.0,40.0,6
+792,Kyushu University of Nursing And Social Welfare,Private,Kumamoto Ken,1998-04,3,9,True,False,3.72,86.0,37.4,7
+794,Kumamoto Health Science University,Private,Kumamoto Ken,2002-12,3,5,True,False,4.11,85.0,39.3,6
+795,Nippon Bunri University,Private,Oita Ken,1967-01,4,8,True,False,3.63,62.0,36.9,7
+796,Beppu University,Private,Oita Ken,1947-04,6,12,True,False,3.87,110.0,35.6,7
+797,Ritsumeikan Asia Pacific University,Private,Oita Ken,1999-12,4,5,True,False,3.94,195.0,50.6,4
+799,Miyazaki Sangyo-Keiei University,Private,Miyazaki Ken,1987-02,2,2,False,False,3.78,36.0,38.5,7
+800,Miyazaki International College,Private,Miyazaki Ken,1993-12,2,2,False,False,3.68,22.0,36.3,7
+802,The International University of Kagoshima,Private,Kagoshima Ken,1932-03,6,9,True,False,3.89,139.0,36.8,7
+803,Daiichi Institute of Technology,Private,Kagoshima Ken,1966-01,2,5,False,False,4.02,28.0,35.5,7
+804,Shigakukan University,Private,Kagoshima Ken,1978-12,3,5,True,False,3.84,86.0,36.0,7
+805,Kagoshima Immaculate Heart University,Private,Kagoshima Ken,1993-12,3,4,True,False,4.04,60.0,36.2,7
+807,Okinawa International University,Private,Okinawa Ken,1972-02,7,15,True,False,3.95,263.0,41.6,6
+808,Okinawa University,Private,Okinawa Ken,1961-03,4,7,True,False,3.88,121.0,37.5,7
+809,Okinawa Christian University,Private,Okinawa Ken,2003-11,2,2,True,False,4.23,25.0,39.0,7
+810,R Professional University of Rehabilitation,Private,Ibaraki Ken,2022-04,1,2,False,False,2.0,1.0,37.5,7
+811,Osaka Shin-Ai  Gakuin University,Private,Osaka Fu,2022-04,2,2,False,False,3.806595460614152,249.7570093457944,38.8,7
+812,Reiwa Health Sciences University,Private,Fukuoka Ken,2022-04,2,3,False,False,3.5,2.0,36.0,7
